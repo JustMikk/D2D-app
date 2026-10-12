@@ -1,0 +1,5000 @@
+[
+  {
+    "id": "4002107919",
+    "title": "Warehouse Supervisor",
+    "companyName": "Lone Star Freight Solutions",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-lone-star-freight-solutions/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000001",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400013",
+    "insights": [
+      "3 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002107919",
+    "applyUrl": "https://careers.sample-lone-star-freight-solutions.example/apply/1",
+    "insightsV2": [
+      "240 employees · Transportation, Logistics, Supply Chain and Storage"
+    ],
+    "descriptionText": "Overview\n\nLone Star Freight Solutions is hiring a Warehouse Supervisor for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789635540000,
+    "postedAt": "2026-09-17T08:59:00.000Z",
+    "companyDescription": "Lone Star Freight Solutions is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2450 Commerce St",
+      "addressLocality": "Dallas",
+      "addressRegion": "Texas",
+      "postalCode": "75226",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-lone-star-freight-solutions.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 240,
+    "jobApplicantInsights": {
+      "applicantCount": 76,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 53
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 13
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002107919",
+      "applicantsInPastDay": 10,
+      "seniorityDetails": [
+        {
+          "count": 39,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-01",
+      "name": "Morgan Testerson",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Lone Star Freight Solutions",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 201,
+        "end": 500
+      },
+      "entityUrn": "urn:li:fsd_company:800001",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800001",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800001",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 640
+      },
+      "name": "Lone Star Freight Solutions",
+      "description": "Lone Star Freight Solutions is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-lone-star-freight-solutions",
+      "employeeCount": 240
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002107919",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$38,000/yr",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000001"
+    },
+    "skills": [
+      "Scheduling",
+      "Microsoft Office",
+      "Time Management",
+      "Project Coordination",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "4002115838",
+    "title": "Office Manager",
+    "companyName": "Bluebonnet Dental Group",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-bluebonnet-dental-group/life",
+    "location": {
+      "abbreviatedLocalizedName": "Plano, TX",
+      "entityUrn": "urn:li:fsd_geo:9000002",
+      "defaultLocalizedName": "Plano, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400026",
+    "insights": [
+      "8 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002115838",
+    "applyUrl": "https://careers.sample-bluebonnet-dental-group.example/apply/2",
+    "insightsV2": [
+      "85 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nBluebonnet Dental Group is hiring a Office Manager for our Plano location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789794900000,
+    "postedAt": "2026-09-19T05:15:00.000Z",
+    "companyDescription": "Bluebonnet Dental Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "6101 Preston Rd",
+      "addressLocality": "Plano",
+      "addressRegion": "Texas",
+      "postalCode": "75093",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-bluebonnet-dental-group.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 85,
+    "jobApplicantInsights": {
+      "applicantCount": 145,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 48
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 18
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002115838",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 27,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-02",
+      "name": "Jamie Testerson",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Bluebonnet Dental Group",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 80,
+        "end": 129
+      },
+      "entityUrn": "urn:li:fsd_company:800002",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800002",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800002",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7044
+      },
+      "name": "Bluebonnet Dental Group",
+      "description": "Bluebonnet Dental Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-bluebonnet-dental-group",
+      "employeeCount": 85
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002115838",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Plano, TX",
+      "locationUrn": "urn:li:fsd_geo:9000002"
+    },
+    "skills": [
+      "Inventory Management",
+      "Sales",
+      "Team Leadership",
+      "Microsoft Office",
+      "Safety Compliance"
+    ]
+  },
+  {
+    "id": "4002123757",
+    "title": "Operations Manager",
+    "companyName": "Trinity Roofing & Exteriors",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-trinity-roofing--exteriors/life",
+    "location": {
+      "abbreviatedLocalizedName": "Fort Worth, TX",
+      "entityUrn": "urn:li:fsd_geo:9000003",
+      "defaultLocalizedName": "Fort Worth, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400039",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002123757",
+    "applyUrl": "https://careers.sample-trinity-roofing--exteriors.example/apply/3",
+    "insightsV2": [
+      "130 employees · Construction"
+    ],
+    "descriptionText": "Overview\n\nTrinity Roofing & Exteriors is hiring a Operations Manager for our Fort Worth location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790415360000,
+    "postedAt": "2026-09-26T09:36:00.000Z",
+    "companyDescription": "Trinity Roofing & Exteriors is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "4100 W John Carpenter Fwy",
+      "addressLocality": "Irving",
+      "addressRegion": "Texas",
+      "postalCode": "75063",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-trinity-roofing--exteriors.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 130,
+    "jobApplicantInsights": {
+      "applicantCount": 30,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 49
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 18
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002123757",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 7,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 26,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-03",
+      "name": "Riley Demo",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Trinity Roofing & Exteriors",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Construction"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 130,
+        "end": 179
+      },
+      "entityUrn": "urn:li:fsd_company:800003",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800003",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800003",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8905
+      },
+      "name": "Trinity Roofing & Exteriors",
+      "description": "Trinity Roofing & Exteriors is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-trinity-roofing--exteriors",
+      "employeeCount": 130
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002123757",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$44,000/yr",
+      "location": "Fort Worth, TX",
+      "locationUrn": "urn:li:fsd_geo:9000003"
+    },
+    "skills": [
+      "Communication",
+      "Scheduling",
+      "Project Coordination",
+      "Sales",
+      "Inventory Management"
+    ]
+  },
+  {
+    "id": "4002131676",
+    "title": "Leasing Consultant",
+    "companyName": "Cedar Ridge Property Management",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-cedar-ridge-property-management/life",
+    "location": {
+      "abbreviatedLocalizedName": "Richardson, TX",
+      "entityUrn": "urn:li:fsd_geo:9000004",
+      "defaultLocalizedName": "Richardson, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400052",
+    "insights": [
+      "5 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002131676",
+    "applyUrl": "https://careers.sample-cedar-ridge-property-management.example/apply/4",
+    "insightsV2": [
+      "60 employees · Real Estate"
+    ],
+    "descriptionText": "Overview\n\nCedar Ridge Property Management is hiring a Leasing Consultant for our Richardson location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789708500000,
+    "postedAt": "2026-09-18T05:15:00.000Z",
+    "companyDescription": "Cedar Ridge Property Management is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1200 E Campbell Rd",
+      "addressLocality": "Richardson",
+      "addressRegion": "Texas",
+      "postalCode": "75081",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-cedar-ridge-property-management.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 60,
+    "jobApplicantInsights": {
+      "applicantCount": 23,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 32
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 17
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002131676",
+      "applicantsInPastDay": 1,
+      "seniorityDetails": [
+        {
+          "count": 29,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-04",
+      "name": "Alex Testerson",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Cedar Ridge Property Management",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Real Estate"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 60,
+        "end": 109
+      },
+      "entityUrn": "urn:li:fsd_company:800004",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800004",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800004",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6097
+      },
+      "name": "Cedar Ridge Property Management",
+      "description": "Cedar Ridge Property Management is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-cedar-ridge-property-management",
+      "employeeCount": 60
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002131676",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Richardson, TX",
+      "locationUrn": "urn:li:fsd_geo:9000004"
+    },
+    "skills": [
+      "Team Leadership",
+      "Inventory Management",
+      "Time Management",
+      "Microsoft Office",
+      "Sales"
+    ]
+  },
+  {
+    "id": "4002139595",
+    "title": "Service Coordinator",
+    "companyName": "Metroplex HVAC Partners",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-metroplex-hvac-partners/life",
+    "location": {
+      "abbreviatedLocalizedName": "Garland, TX",
+      "entityUrn": "urn:li:fsd_geo:9000005",
+      "defaultLocalizedName": "Garland, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400065",
+    "insights": [
+      "9 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002139595",
+    "applyUrl": "https://careers.sample-metroplex-hvac-partners.example/apply/5",
+    "insightsV2": [
+      "75 employees · Construction"
+    ],
+    "descriptionText": "Overview\n\nMetroplex HVAC Partners is hiring a Service Coordinator for our Garland location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789481940000,
+    "postedAt": "2026-09-15T14:19:00.000Z",
+    "companyDescription": "Metroplex HVAC Partners is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "3300 Broadway Blvd",
+      "addressLocality": "Garland",
+      "addressRegion": "Texas",
+      "postalCode": "75043",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-metroplex-hvac-partners.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 75,
+    "jobApplicantInsights": {
+      "applicantCount": 24,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 53
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 17
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002139595",
+      "applicantsInPastDay": 2,
+      "seniorityDetails": [
+        {
+          "count": 34,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 15,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Construction"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 70,
+        "end": 119
+      },
+      "entityUrn": "urn:li:fsd_company:800005",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800005",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800005",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 4542
+      },
+      "name": "Metroplex HVAC Partners",
+      "description": "Metroplex HVAC Partners is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-metroplex-hvac-partners",
+      "employeeCount": 75
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002139595",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$78,000/yr",
+      "location": "Garland, TX",
+      "locationUrn": "urn:li:fsd_geo:9000005"
+    },
+    "skills": [
+      "Safety Compliance",
+      "Project Coordination",
+      "Microsoft Office",
+      "Inventory Management",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "4002147514",
+    "title": "Catering Manager",
+    "companyName": "Harvest Table Catering",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-harvest-table-catering/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000006",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400078",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002147514",
+    "applyUrl": "https://careers.sample-harvest-table-catering.example/apply/6",
+    "insightsV2": [
+      "42 employees · Food and Beverage Services"
+    ],
+    "descriptionText": "Overview\n\nHarvest Table Catering is hiring a Catering Manager for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790244540000,
+    "postedAt": "2026-09-24T10:09:00.000Z",
+    "companyDescription": "Harvest Table Catering is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "5400 Greenville Ave",
+      "addressLocality": "Dallas",
+      "addressRegion": "Texas",
+      "postalCode": "75206",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-harvest-table-catering.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 42,
+    "jobApplicantInsights": {
+      "applicantCount": 86,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 32
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 16
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002147514",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 25,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 9,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-06",
+      "name": "Jamie Demo",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Harvest Table Catering",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Food and Beverage Services"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 40,
+        "end": 89
+      },
+      "entityUrn": "urn:li:fsd_company:800006",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800006",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800006",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6602
+      },
+      "name": "Harvest Table Catering",
+      "description": "Harvest Table Catering is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-harvest-table-catering",
+      "employeeCount": 42
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002147514",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000006"
+    },
+    "skills": [
+      "Time Management",
+      "Problem Solving",
+      "Team Leadership",
+      "Sales",
+      "Data Entry"
+    ]
+  },
+  {
+    "id": "4002155433",
+    "title": "Account Manager",
+    "companyName": "Northgate Insurance Agency",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-northgate-insurance-agency/life",
+    "location": {
+      "abbreviatedLocalizedName": "Frisco, TX",
+      "entityUrn": "urn:li:fsd_geo:9000007",
+      "defaultLocalizedName": "Frisco, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400091",
+    "insights": [
+      "7 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002155433",
+    "applyUrl": "https://careers.sample-northgate-insurance-agency.example/apply/7",
+    "insightsV2": [
+      "38 employees · Insurance"
+    ],
+    "descriptionText": "Overview\n\nNorthgate Insurance Agency is hiring a Account Manager for our Frisco location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790166300000,
+    "postedAt": "2026-09-23T12:25:00.000Z",
+    "companyDescription": "Northgate Insurance Agency is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "8200 Gaylord Pkwy",
+      "addressLocality": "Frisco",
+      "addressRegion": "Texas",
+      "postalCode": "75034",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-northgate-insurance-agency.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 38,
+    "jobApplicantInsights": {
+      "applicantCount": 143,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 58
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 28
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002155433",
+      "applicantsInPastDay": 6,
+      "seniorityDetails": [
+        {
+          "count": 28,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-07",
+      "name": "Casey Example",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Northgate Insurance Agency",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Insurance"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 30,
+        "end": 79
+      },
+      "entityUrn": "urn:li:fsd_company:800007",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800007",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800007",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8468
+      },
+      "name": "Northgate Insurance Agency",
+      "description": "Northgate Insurance Agency is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-northgate-insurance-agency",
+      "employeeCount": 38
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002155433",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$68,000/yr",
+      "location": "Frisco, TX",
+      "locationUrn": "urn:li:fsd_geo:9000007"
+    },
+    "skills": [
+      "Scheduling",
+      "Customer Service",
+      "Safety Compliance",
+      "Team Leadership",
+      "Project Coordination"
+    ]
+  },
+  {
+    "id": "4002163352",
+    "title": "Service Advisor",
+    "companyName": "Panhandle Auto Group",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-panhandle-auto-group/life",
+    "location": {
+      "abbreviatedLocalizedName": "Arlington, TX",
+      "entityUrn": "urn:li:fsd_geo:9000008",
+      "defaultLocalizedName": "Arlington, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400104",
+    "insights": [
+      "7 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002163352",
+    "applyUrl": "https://careers.sample-panhandle-auto-group.example/apply/8",
+    "insightsV2": [
+      "310 employees · Retail Motor Vehicles"
+    ],
+    "descriptionText": "Overview\n\nPanhandle Auto Group is hiring a Service Advisor for our Arlington location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789396380000,
+    "postedAt": "2026-09-14T14:33:00.000Z",
+    "companyDescription": "Panhandle Auto Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2100 E Randol Mill Rd",
+      "addressLocality": "Arlington",
+      "addressRegion": "Texas",
+      "postalCode": "76011",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-panhandle-auto-group.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 310,
+    "jobApplicantInsights": {
+      "applicantCount": 158,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 49
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 24
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002163352",
+      "applicantsInPastDay": 8,
+      "seniorityDetails": [
+        {
+          "count": 21,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 20,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-08",
+      "name": "Jordan Placeholder",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Panhandle Auto Group",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Retail Motor Vehicles"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 201,
+        "end": 500
+      },
+      "entityUrn": "urn:li:fsd_company:800008",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800008",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800008",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 1996
+      },
+      "name": "Panhandle Auto Group",
+      "description": "Panhandle Auto Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-panhandle-auto-group",
+      "employeeCount": 310
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002163352",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Arlington, TX",
+      "locationUrn": "urn:li:fsd_geo:9000008"
+    },
+    "skills": [
+      "Time Management",
+      "Project Coordination",
+      "Sales",
+      "Inventory Management",
+      "Scheduling"
+    ]
+  },
+  {
+    "id": "4002171271",
+    "title": "Staff Accountant",
+    "companyName": "Elm Street Accounting",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-elm-street-accounting/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000009",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400117",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002171271",
+    "applyUrl": "https://careers.sample-elm-street-accounting.example/apply/9",
+    "insightsV2": [
+      "26 employees · Accounting"
+    ],
+    "descriptionText": "Overview\n\nElm Street Accounting is hiring a Staff Accountant for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790117400000,
+    "postedAt": "2026-09-22T22:50:00.000Z",
+    "companyDescription": "Elm Street Accounting is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1717 Main St",
+      "addressLocality": "Dallas",
+      "addressRegion": "Texas",
+      "postalCode": "75201",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-elm-street-accounting.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 26,
+    "jobApplicantInsights": {
+      "applicantCount": 122,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 46
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 15
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002171271",
+      "applicantsInPastDay": 8,
+      "seniorityDetails": [
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 30,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-09",
+      "name": "Alex Demo",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Elm Street Accounting",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Accounting"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 20,
+        "end": 69
+      },
+      "entityUrn": "urn:li:fsd_company:800009",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800009",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800009",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8437
+      },
+      "name": "Elm Street Accounting",
+      "description": "Elm Street Accounting is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-elm-street-accounting",
+      "employeeCount": 26
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002171271",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$76,000/yr",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000009"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Team Leadership",
+      "Inventory Management",
+      "Time Management",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "4002179190",
+    "title": "Billing Specialist",
+    "companyName": "Sunbelt Medical Billing",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-sunbelt-medical-billing/life",
+    "location": {
+      "abbreviatedLocalizedName": "Fort Worth, TX",
+      "entityUrn": "urn:li:fsd_geo:9000010",
+      "defaultLocalizedName": "Fort Worth, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400130",
+    "insights": [
+      "5 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002179190",
+    "applyUrl": "https://careers.sample-sunbelt-medical-billing.example/apply/10",
+    "insightsV2": [
+      "55 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nSunbelt Medical Billing is hiring a Billing Specialist for our Fort Worth location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789694940000,
+    "postedAt": "2026-09-18T01:29:00.000Z",
+    "companyDescription": "Sunbelt Medical Billing is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "PO Box 4471",
+      "addressLocality": "Fort Worth",
+      "addressRegion": "Texas",
+      "postalCode": "76164",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-sunbelt-medical-billing.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 55,
+    "jobApplicantInsights": {
+      "applicantCount": 10,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 37
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 11
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002179190",
+      "applicantsInPastDay": 3,
+      "seniorityDetails": [
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 50,
+        "end": 99
+      },
+      "entityUrn": "urn:li:fsd_company:800010",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800010",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800010",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8082
+      },
+      "name": "Sunbelt Medical Billing",
+      "description": "Sunbelt Medical Billing is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-sunbelt-medical-billing",
+      "employeeCount": 55
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002179190",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Fort Worth, TX",
+      "locationUrn": "urn:li:fsd_geo:9000010"
+    },
+    "skills": [
+      "Scheduling",
+      "Project Coordination",
+      "Team Leadership",
+      "Data Entry",
+      "Problem Solving"
+    ]
+  },
+  {
+    "id": "4002187109",
+    "title": "Sales Coordinator",
+    "companyName": "Prairie Wind Solar",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-prairie-wind-solar/life",
+    "location": {
+      "abbreviatedLocalizedName": "Fort Worth, TX",
+      "entityUrn": "urn:li:fsd_geo:9000011",
+      "defaultLocalizedName": "Fort Worth, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400143",
+    "insights": [
+      "4 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002187109",
+    "applyUrl": "https://careers.sample-prairie-wind-solar.example/apply/11",
+    "insightsV2": [
+      "48 employees · Renewable Energy Semiconductor Manufacturing"
+    ],
+    "descriptionText": "Overview\n\nPrairie Wind Solar is hiring a Sales Coordinator for our Fort Worth location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789800240000,
+    "postedAt": "2026-09-19T06:44:00.000Z",
+    "companyDescription": "Prairie Wind Solar is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "4500 Camp Bowie Blvd",
+      "addressLocality": "Fort Worth",
+      "addressRegion": "Texas",
+      "postalCode": "76107",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-prairie-wind-solar.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 48,
+    "jobApplicantInsights": {
+      "applicantCount": 141,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 59
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 27
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002187109",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 17,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 25,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-11",
+      "name": "Drew Placeholder",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Prairie Wind Solar",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Renewable Energy Semiconductor Manufacturing"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 40,
+        "end": 89
+      },
+      "entityUrn": "urn:li:fsd_company:800011",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800011",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800011",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6657
+      },
+      "name": "Prairie Wind Solar",
+      "description": "Prairie Wind Solar is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-prairie-wind-solar",
+      "employeeCount": 48
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002187109",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$78,000/yr",
+      "location": "Fort Worth, TX",
+      "locationUrn": "urn:li:fsd_geo:9000011"
+    },
+    "skills": [
+      "Inventory Management",
+      "Problem Solving",
+      "Project Coordination",
+      "Time Management",
+      "Scheduling"
+    ]
+  },
+  {
+    "id": "4002195028",
+    "title": "Dispatcher",
+    "companyName": "Red River Logistics",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-red-river-logistics/life",
+    "location": {
+      "abbreviatedLocalizedName": "Houston, TX",
+      "entityUrn": "urn:li:fsd_geo:9000012",
+      "defaultLocalizedName": "Houston, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400156",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002195028",
+    "applyUrl": "https://careers.sample-red-river-logistics.example/apply/12",
+    "insightsV2": [
+      "420 employees · Transportation, Logistics, Supply Chain and Storage"
+    ],
+    "descriptionText": "Overview\n\nRed River Logistics is hiring a Dispatcher for our Houston location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790225760000,
+    "postedAt": "2026-09-24T04:56:00.000Z",
+    "companyDescription": "Red River Logistics is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2601 Great Southwest Pkwy",
+      "addressLocality": "Grand Prairie",
+      "addressRegion": "Texas",
+      "postalCode": "75050",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-red-river-logistics.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 420,
+    "jobApplicantInsights": {
+      "applicantCount": 92,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 47
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 17
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002195028",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 19,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 3,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-12",
+      "name": "Alex Example",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Red River Logistics",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Transportation, Logistics, Supply Chain and Storage"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 201,
+        "end": 500
+      },
+      "entityUrn": "urn:li:fsd_company:800012",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800012",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800012",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 1084
+      },
+      "name": "Red River Logistics",
+      "description": "Red River Logistics is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-red-river-logistics",
+      "employeeCount": 420
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002195028",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Houston, TX",
+      "locationUrn": "urn:li:fsd_geo:9000012"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Scheduling",
+      "Customer Service",
+      "Inventory Management",
+      "Time Management"
+    ]
+  },
+  {
+    "id": "4002202947",
+    "title": "Medical Assistant",
+    "companyName": "Oak Cliff Family Clinic",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-oak-cliff-family-clinic/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000013",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400169",
+    "insights": [
+      "3 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002202947",
+    "applyUrl": "https://careers.sample-oak-cliff-family-clinic.example/apply/13",
+    "insightsV2": [
+      "34 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nOak Cliff Family Clinic is hiring a Medical Assistant for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789792980000,
+    "postedAt": "2026-09-19T04:43:00.000Z",
+    "companyDescription": "Oak Cliff Family Clinic is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "400 W Jefferson Blvd",
+      "addressLocality": "Dallas",
+      "addressRegion": "Texas",
+      "postalCode": "75208",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-oak-cliff-family-clinic.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 34,
+    "jobApplicantInsights": {
+      "applicantCount": 130,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 53
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 28
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002202947",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 35,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-13",
+      "name": "Morgan Example",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Oak Cliff Family Clinic",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 30,
+        "end": 79
+      },
+      "entityUrn": "urn:li:fsd_company:800013",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800013",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800013",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6789
+      },
+      "name": "Oak Cliff Family Clinic",
+      "description": "Oak Cliff Family Clinic is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-oak-cliff-family-clinic",
+      "employeeCount": 34
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002202947",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$50,000/yr",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000013"
+    },
+    "skills": [
+      "Scheduling",
+      "Safety Compliance",
+      "Communication",
+      "Inventory Management",
+      "Data Entry"
+    ]
+  },
+  {
+    "id": "4002210866",
+    "title": "Membership Advisor",
+    "companyName": "Legacy Fitness Studios",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-legacy-fitness-studios/life",
+    "location": {
+      "abbreviatedLocalizedName": "Plano, TX",
+      "entityUrn": "urn:li:fsd_geo:9000014",
+      "defaultLocalizedName": "Plano, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400182",
+    "insights": [
+      "7 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002210866",
+    "applyUrl": "https://careers.sample-legacy-fitness-studios.example/apply/14",
+    "insightsV2": [
+      "90 employees · Wellness and Fitness Services"
+    ],
+    "descriptionText": "Overview\n\nLegacy Fitness Studios is hiring a Membership Advisor for our Plano location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789938300000,
+    "postedAt": "2026-09-20T21:05:00.000Z",
+    "companyDescription": "Legacy Fitness Studios is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "3400 Legacy Dr",
+      "addressLocality": "Plano",
+      "addressRegion": "Texas",
+      "postalCode": "75023",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-legacy-fitness-studios.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 90,
+    "jobApplicantInsights": {
+      "applicantCount": 19,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 53
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 20
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002210866",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-14",
+      "name": "Jordan Sample",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Legacy Fitness Studios",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Wellness and Fitness Services"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 90,
+        "end": 139
+      },
+      "entityUrn": "urn:li:fsd_company:800014",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800014",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800014",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 3236
+      },
+      "name": "Legacy Fitness Studios",
+      "description": "Legacy Fitness Studios is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-legacy-fitness-studios",
+      "employeeCount": 90
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002210866",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Plano, TX",
+      "locationUrn": "urn:li:fsd_geo:9000014"
+    },
+    "skills": [
+      "Project Coordination",
+      "Problem Solving",
+      "Team Leadership",
+      "Communication",
+      "Data Entry"
+    ]
+  },
+  {
+    "id": "4002218785",
+    "title": "Recruiter",
+    "companyName": "Bridgewater Staffing",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-bridgewater-staffing/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000015",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400195",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002218785",
+    "applyUrl": "https://careers.sample-bridgewater-staffing.example/apply/15",
+    "insightsV2": [
+      "115 employees · Staffing and Recruiting"
+    ],
+    "descriptionText": "Overview\n\nBridgewater Staffing is hiring a Recruiter for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790113500000,
+    "postedAt": "2026-09-22T21:45:00.000Z",
+    "companyDescription": "Bridgewater Staffing is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "5525 N MacArthur Blvd",
+      "addressLocality": "Irving",
+      "addressRegion": "Texas",
+      "postalCode": "75038",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-bridgewater-staffing.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 115,
+    "jobApplicantInsights": {
+      "applicantCount": 25,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 33
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 11
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002218785",
+      "applicantsInPastDay": 10,
+      "seniorityDetails": [
+        {
+          "count": 39,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 29,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Staffing and Recruiting"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 110,
+        "end": 159
+      },
+      "entityUrn": "urn:li:fsd_company:800015",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800015",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800015",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 361
+      },
+      "name": "Bridgewater Staffing",
+      "description": "Bridgewater Staffing is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-bridgewater-staffing",
+      "employeeCount": 115
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002218785",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$42,000/yr",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000015"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Team Leadership",
+      "Communication",
+      "Problem Solving",
+      "Project Coordination"
+    ]
+  },
+  {
+    "id": "4002226704",
+    "title": "Production Supervisor",
+    "companyName": "Silverline Packaging",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-silverline-packaging/life",
+    "location": {
+      "abbreviatedLocalizedName": "Mesquite, TX",
+      "entityUrn": "urn:li:fsd_geo:9000016",
+      "defaultLocalizedName": "Mesquite, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400208",
+    "insights": [
+      "1 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002226704",
+    "applyUrl": "https://careers.sample-silverline-packaging.example/apply/16",
+    "insightsV2": [
+      "210 employees · Manufacturing"
+    ],
+    "descriptionText": "Overview\n\nSilverline Packaging is hiring a Production Supervisor for our Mesquite location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790204580000,
+    "postedAt": "2026-09-23T23:03:00.000Z",
+    "companyDescription": "Silverline Packaging is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "Mesquite",
+      "addressRegion": "Texas",
+      "postalCode": "75149",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-silverline-packaging.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 210,
+    "jobApplicantInsights": {
+      "applicantCount": 21,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 42
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 18
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002226704",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 34,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 12,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-16",
+      "name": "Taylor Placeholder",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Silverline Packaging",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Manufacturing"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 201,
+        "end": 500
+      },
+      "entityUrn": "urn:li:fsd_company:800016",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800016",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800016",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8093
+      },
+      "name": "Silverline Packaging",
+      "description": "Silverline Packaging is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-silverline-packaging",
+      "employeeCount": 210
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002226704",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Mesquite, TX",
+      "locationUrn": "urn:li:fsd_geo:9000016"
+    },
+    "skills": [
+      "Team Leadership",
+      "Microsoft Office",
+      "Sales",
+      "Time Management",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "4002234623",
+    "title": "Veterinary Technician",
+    "companyName": "Willow Creek Veterinary",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-willow-creek-veterinary/life",
+    "location": {
+      "abbreviatedLocalizedName": "McKinney, TX",
+      "entityUrn": "urn:li:fsd_geo:9000017",
+      "defaultLocalizedName": "McKinney, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400221",
+    "insights": [
+      "1 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002234623",
+    "applyUrl": "https://careers.sample-willow-creek-veterinary.example/apply/17",
+    "insightsV2": [
+      "29 employees · Veterinary Services"
+    ],
+    "descriptionText": "Overview\n\nWillow Creek Veterinary is hiring a Veterinary Technician for our McKinney location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789647960000,
+    "postedAt": "2026-09-17T12:26:00.000Z",
+    "companyDescription": "Willow Creek Veterinary is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2900 Eldorado Pkwy",
+      "addressLocality": "McKinney",
+      "addressRegion": "Texas",
+      "postalCode": "75070",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-willow-creek-veterinary.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 29,
+    "jobApplicantInsights": {
+      "applicantCount": 21,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 48
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 25
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002234623",
+      "applicantsInPastDay": 8,
+      "seniorityDetails": [
+        {
+          "count": 38,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 8,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-17",
+      "name": "Riley Sample",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Willow Creek Veterinary",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Veterinary Services"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 20,
+        "end": 69
+      },
+      "entityUrn": "urn:li:fsd_company:800017",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800017",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800017",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8440
+      },
+      "name": "Willow Creek Veterinary",
+      "description": "Willow Creek Veterinary is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-willow-creek-veterinary",
+      "employeeCount": 29
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002234623",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$42,000/yr",
+      "location": "McKinney, TX",
+      "locationUrn": "urn:li:fsd_geo:9000017"
+    },
+    "skills": [
+      "Team Leadership",
+      "Scheduling",
+      "Data Entry",
+      "Time Management",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "id": "4002242542",
+    "title": "Inside Sales Representative",
+    "companyName": "Brazos Building Supply",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-brazos-building-supply/life",
+    "location": {
+      "abbreviatedLocalizedName": "Carrollton, TX",
+      "entityUrn": "urn:li:fsd_geo:9000018",
+      "defaultLocalizedName": "Carrollton, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400234",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002242542",
+    "applyUrl": "https://careers.sample-brazos-building-supply.example/apply/18",
+    "insightsV2": [
+      "150 employees · Wholesale Building Materials"
+    ],
+    "descriptionText": "Overview\n\nBrazos Building Supply is hiring a Inside Sales Representative for our Carrollton location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789977840000,
+    "postedAt": "2026-09-21T08:04:00.000Z",
+    "companyDescription": "Brazos Building Supply is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1900 E Belt Line Rd",
+      "addressLocality": "Carrollton",
+      "addressRegion": "Texas",
+      "postalCode": "75006",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-brazos-building-supply.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 150,
+    "jobApplicantInsights": {
+      "applicantCount": 151,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 49
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 11
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002242542",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 16,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-18",
+      "name": "Morgan Example",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Brazos Building Supply",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Wholesale Building Materials"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 150,
+        "end": 199
+      },
+      "entityUrn": "urn:li:fsd_company:800018",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800018",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800018",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 4392
+      },
+      "name": "Brazos Building Supply",
+      "description": "Brazos Building Supply is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-brazos-building-supply",
+      "employeeCount": 150
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002242542",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Carrollton, TX",
+      "locationUrn": "urn:li:fsd_geo:9000018"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Time Management",
+      "Inventory Management",
+      "Safety Compliance",
+      "Sales"
+    ]
+  },
+  {
+    "id": "4002250461",
+    "title": "Field Technician",
+    "companyName": "Rangeway Security Systems",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-rangeway-security-systems/life",
+    "location": {
+      "abbreviatedLocalizedName": "Lewisville, TX",
+      "entityUrn": "urn:li:fsd_geo:9000019",
+      "defaultLocalizedName": "Lewisville, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400247",
+    "insights": [
+      "2 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002250461",
+    "applyUrl": "https://careers.sample-rangeway-security-systems.example/apply/19",
+    "insightsV2": [
+      "67 employees · Security and Investigations"
+    ],
+    "descriptionText": "Overview\n\nRangeway Security Systems is hiring a Field Technician for our Lewisville location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789975080000,
+    "postedAt": "2026-09-21T07:18:00.000Z",
+    "companyDescription": "Rangeway Security Systems is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1000 S Stemmons Fwy",
+      "addressLocality": "Lewisville",
+      "addressRegion": "Texas",
+      "postalCode": "",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-rangeway-security-systems.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 67,
+    "jobApplicantInsights": {
+      "applicantCount": 82,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 30
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 24
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002250461",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-19",
+      "name": "Avery Demo",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Rangeway Security Systems",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Security and Investigations"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 60,
+        "end": 109
+      },
+      "entityUrn": "urn:li:fsd_company:800019",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800019",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800019",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8408
+      },
+      "name": "Rangeway Security Systems",
+      "description": "Rangeway Security Systems is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-rangeway-security-systems",
+      "employeeCount": 67
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002250461",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$54,000/yr",
+      "location": "Lewisville, TX",
+      "locationUrn": "urn:li:fsd_geo:9000019"
+    },
+    "skills": [
+      "Team Leadership",
+      "Inventory Management",
+      "Scheduling",
+      "Microsoft Office",
+      "Time Management"
+    ]
+  },
+  {
+    "id": "4002258380",
+    "title": "Marketing Coordinator",
+    "companyName": "Kessler Park Realty",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-kessler-park-realty/life",
+    "location": {
+      "abbreviatedLocalizedName": "Dallas, TX",
+      "entityUrn": "urn:li:fsd_geo:9000020",
+      "defaultLocalizedName": "Dallas, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400260",
+    "insights": [
+      "9 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002258380",
+    "applyUrl": "https://careers.sample-kessler-park-realty.example/apply/20",
+    "insightsV2": [
+      "22 employees · Real Estate"
+    ],
+    "descriptionText": "Overview\n\nKessler Park Realty is hiring a Marketing Coordinator for our Dallas location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790145120000,
+    "postedAt": "2026-09-23T06:32:00.000Z",
+    "companyDescription": "Kessler Park Realty is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1300 W Davis St",
+      "addressLocality": "Dallas",
+      "addressRegion": "Texas",
+      "postalCode": "75208",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-kessler-park-realty.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 22,
+    "jobApplicantInsights": {
+      "applicantCount": 145,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 30
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 27
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002258380",
+      "applicantsInPastDay": 4,
+      "seniorityDetails": [
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 7,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Real Estate"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 20,
+        "end": 69
+      },
+      "entityUrn": "urn:li:fsd_company:800020",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800020",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800020",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 4453
+      },
+      "name": "Kessler Park Realty",
+      "description": "Kessler Park Realty is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-kessler-park-realty",
+      "employeeCount": 22
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002258380",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Dallas, TX",
+      "locationUrn": "urn:li:fsd_geo:9000020"
+    },
+    "skills": [
+      "Scheduling",
+      "Safety Compliance",
+      "Project Coordination",
+      "Team Leadership",
+      "Sales"
+    ]
+  },
+  {
+    "id": "4002266299",
+    "title": "Program Director",
+    "companyName": "Copperfield Learning Center",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-copperfield-learning-center/life",
+    "location": {
+      "abbreviatedLocalizedName": "Denton, TX",
+      "entityUrn": "urn:li:fsd_geo:9000021",
+      "defaultLocalizedName": "Denton, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400273",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002266299",
+    "applyUrl": "https://careers.sample-copperfield-learning-center.example/apply/21",
+    "insightsV2": [
+      "45 employees · Education"
+    ],
+    "descriptionText": "Overview\n\nCopperfield Learning Center is hiring a Program Director for our Denton location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790095620000,
+    "postedAt": "2026-09-22T16:47:00.000Z",
+    "companyDescription": "Copperfield Learning Center is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": null,
+    "companyWebsite": "https://www.sample-copperfield-learning-center.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 45,
+    "jobApplicantInsights": {
+      "applicantCount": 93,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 46
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 25
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002266299",
+      "applicantsInPastDay": 4,
+      "seniorityDetails": [
+        {
+          "count": 8,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Education"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 40,
+        "end": 89
+      },
+      "entityUrn": "urn:li:fsd_company:800021",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800021",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800021",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7059
+      },
+      "name": "Copperfield Learning Center",
+      "description": "Copperfield Learning Center is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-copperfield-learning-center",
+      "employeeCount": 45
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002266299",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$54,000/yr",
+      "location": "Denton, TX",
+      "locationUrn": "urn:li:fsd_geo:9000021"
+    },
+    "skills": [
+      "Customer Service",
+      "Safety Compliance",
+      "Inventory Management",
+      "Team Leadership",
+      "Sales"
+    ]
+  },
+  {
+    "id": "4002274218",
+    "title": "Scheduling Coordinator",
+    "companyName": "Meridian Home Health",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-meridian-home-health/life",
+    "location": {
+      "abbreviatedLocalizedName": "Fort Worth, TX",
+      "entityUrn": "urn:li:fsd_geo:9000022",
+      "defaultLocalizedName": "Fort Worth, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400286",
+    "insights": [
+      "1 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002274218",
+    "applyUrl": "https://careers.sample-meridian-home-health.example/apply/22",
+    "insightsV2": [
+      "180 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nMeridian Home Health is hiring a Scheduling Coordinator for our Fort Worth location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790253120000,
+    "postedAt": "2026-09-24T12:32:00.000Z",
+    "companyDescription": "Meridian Home Health is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "6200 Southwest Blvd",
+      "addressLocality": "Fort Worth",
+      "addressRegion": "Texas",
+      "postalCode": "76109",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-meridian-home-health.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 180,
+    "jobApplicantInsights": {
+      "applicantCount": 147,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 33
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 12
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002274218",
+      "applicantsInPastDay": 11,
+      "seniorityDetails": [
+        {
+          "count": 14,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 20,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-22",
+      "name": "Jamie Example",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Meridian Home Health",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 180,
+        "end": 229
+      },
+      "entityUrn": "urn:li:fsd_company:800022",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800022",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800022",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6169
+      },
+      "name": "Meridian Home Health",
+      "description": "Meridian Home Health is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-meridian-home-health",
+      "employeeCount": 180
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002274218",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Fort Worth, TX",
+      "locationUrn": "urn:li:fsd_geo:9000022"
+    },
+    "skills": [
+      "Data Entry",
+      "Project Coordination",
+      "Team Leadership",
+      "Communication",
+      "Safety Compliance"
+    ]
+  },
+  {
+    "id": "4002282137",
+    "title": "Store Manager",
+    "companyName": "Capital City Coffee Roasters",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-capital-city-coffee-roasters/life",
+    "location": {
+      "abbreviatedLocalizedName": "Austin, TX",
+      "entityUrn": "urn:li:fsd_geo:9000023",
+      "defaultLocalizedName": "Austin, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400299",
+    "insights": [
+      "4 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002282137",
+    "applyUrl": "https://careers.sample-capital-city-coffee-roasters.example/apply/23",
+    "insightsV2": [
+      "64 employees · Food and Beverage Services"
+    ],
+    "descriptionText": "Overview\n\nCapital City Coffee Roasters is hiring a Store Manager for our Austin location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790476620000,
+    "postedAt": "2026-09-27T02:37:00.000Z",
+    "companyDescription": "Capital City Coffee Roasters is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1100 S Lamar Blvd",
+      "addressLocality": "Austin",
+      "addressRegion": "Texas",
+      "postalCode": "78704",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-capital-city-coffee-roasters.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 64,
+    "jobApplicantInsights": {
+      "applicantCount": 16,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 51
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 13
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002282137",
+      "applicantsInPastDay": 5,
+      "seniorityDetails": [
+        {
+          "count": 40,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 30,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-23",
+      "name": "Riley Testerson",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Capital City Coffee Roasters",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Food and Beverage Services"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 60,
+        "end": 109
+      },
+      "entityUrn": "urn:li:fsd_company:800023",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800023",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800023",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 2652
+      },
+      "name": "Capital City Coffee Roasters",
+      "description": "Capital City Coffee Roasters is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-capital-city-coffee-roasters",
+      "employeeCount": 64
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002282137",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$52,000/yr",
+      "location": "Austin, TX",
+      "locationUrn": "urn:li:fsd_geo:9000023"
+    },
+    "skills": [
+      "Team Leadership",
+      "Safety Compliance",
+      "Communication",
+      "Customer Service",
+      "Time Management"
+    ]
+  },
+  {
+    "id": "4002290056",
+    "title": "Project Coordinator",
+    "companyName": "Hill Country Solar Installers",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-hill-country-solar-installers/life",
+    "location": {
+      "abbreviatedLocalizedName": "Austin, TX",
+      "entityUrn": "urn:li:fsd_geo:9000024",
+      "defaultLocalizedName": "Austin, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400312",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002290056",
+    "applyUrl": "https://careers.sample-hill-country-solar-installers.example/apply/24",
+    "insightsV2": [
+      "72 employees · Renewable Energy Semiconductor Manufacturing"
+    ],
+    "descriptionText": "Overview\n\nHill Country Solar Installers is hiring a Project Coordinator for our Austin location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789521000000,
+    "postedAt": "2026-09-16T01:10:00.000Z",
+    "companyDescription": "Hill Country Solar Installers is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "9001 N Lamar Blvd",
+      "addressLocality": "Austin",
+      "addressRegion": "Texas",
+      "postalCode": "78753",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-hill-country-solar-installers.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 72,
+    "jobApplicantInsights": {
+      "applicantCount": 111,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 35
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 13
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002290056",
+      "applicantsInPastDay": 6,
+      "seniorityDetails": [
+        {
+          "count": 7,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 30,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-24",
+      "name": "Morgan Demo",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Hill Country Solar Installers",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Renewable Energy Semiconductor Manufacturing"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 70,
+        "end": 119
+      },
+      "entityUrn": "urn:li:fsd_company:800024",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800024",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800024",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 3764
+      },
+      "name": "Hill Country Solar Installers",
+      "description": "Hill Country Solar Installers is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-hill-country-solar-installers",
+      "employeeCount": 72
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002290056",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Austin, TX",
+      "locationUrn": "urn:li:fsd_geo:9000024"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Problem Solving",
+      "Inventory Management",
+      "Sales",
+      "Safety Compliance"
+    ]
+  },
+  {
+    "id": "4002297975",
+    "title": "Civil Designer",
+    "companyName": "Colorado Bend Engineering",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-colorado-bend-engineering/life",
+    "location": {
+      "abbreviatedLocalizedName": "Austin, TX",
+      "entityUrn": "urn:li:fsd_geo:9000025",
+      "defaultLocalizedName": "Austin, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400325",
+    "insights": [
+      "5 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002297975",
+    "applyUrl": "https://careers.sample-colorado-bend-engineering.example/apply/25",
+    "insightsV2": [
+      "95 employees · Civil Engineering"
+    ],
+    "descriptionText": "Overview\n\nColorado Bend Engineering is hiring a Civil Designer for our Austin location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790248680000,
+    "postedAt": "2026-09-24T11:18:00.000Z",
+    "companyDescription": "Colorado Bend Engineering is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "301 Congress Ave",
+      "addressLocality": "Austin",
+      "addressRegion": "Texas",
+      "postalCode": "78701",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-colorado-bend-engineering.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 95,
+    "jobApplicantInsights": {
+      "applicantCount": 55,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 57
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 12
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002297975",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 22,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 14,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Civil Engineering"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 90,
+        "end": 139
+      },
+      "entityUrn": "urn:li:fsd_company:800025",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800025",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800025",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 8466
+      },
+      "name": "Colorado Bend Engineering",
+      "description": "Colorado Bend Engineering is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-colorado-bend-engineering",
+      "employeeCount": 95
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002297975",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$62,000/yr",
+      "location": "Austin, TX",
+      "locationUrn": "urn:li:fsd_geo:9000025"
+    },
+    "skills": [
+      "Time Management",
+      "Project Coordination",
+      "Inventory Management",
+      "Customer Service",
+      "Scheduling"
+    ]
+  },
+  {
+    "id": "4002305894",
+    "title": "Route Technician",
+    "companyName": "Round Rock Pest Control",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-round-rock-pest-control/life",
+    "location": {
+      "abbreviatedLocalizedName": "Round Rock, TX",
+      "entityUrn": "urn:li:fsd_geo:9000026",
+      "defaultLocalizedName": "Round Rock, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400338",
+    "insights": [
+      "7 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002305894",
+    "applyUrl": "https://careers.sample-round-rock-pest-control.example/apply/26",
+    "insightsV2": [
+      "33 employees · Services for Renewable Energy"
+    ],
+    "descriptionText": "Overview\n\nRound Rock Pest Control is hiring a Route Technician for our Round Rock location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790144580000,
+    "postedAt": "2026-09-23T06:23:00.000Z",
+    "companyDescription": "Round Rock Pest Control is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "200 E Main St",
+      "addressLocality": "Round Rock",
+      "addressRegion": "Texas",
+      "postalCode": "78664",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-round-rock-pest-control.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 33,
+    "jobApplicantInsights": {
+      "applicantCount": 73,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 41
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 20
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002305894",
+      "applicantsInPastDay": 6,
+      "seniorityDetails": [
+        {
+          "count": 37,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 6,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-26",
+      "name": "Alex Sample",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Round Rock Pest Control",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Services for Renewable Energy"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 30,
+        "end": 79
+      },
+      "entityUrn": "urn:li:fsd_company:800026",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800026",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800026",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 3234
+      },
+      "name": "Round Rock Pest Control",
+      "description": "Round Rock Pest Control is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-round-rock-pest-control",
+      "employeeCount": 33
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002305894",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Round Rock, TX",
+      "locationUrn": "urn:li:fsd_geo:9000026"
+    },
+    "skills": [
+      "Sales",
+      "Customer Service",
+      "Communication",
+      "Time Management",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "id": "4002313813",
+    "title": "Front Desk Coordinator",
+    "companyName": "Barton Springs Pediatrics",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-barton-springs-pediatrics/life",
+    "location": {
+      "abbreviatedLocalizedName": "Austin, TX",
+      "entityUrn": "urn:li:fsd_geo:9000027",
+      "defaultLocalizedName": "Austin, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400351",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002313813",
+    "applyUrl": "https://careers.sample-barton-springs-pediatrics.example/apply/27",
+    "insightsV2": [
+      "41 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nBarton Springs Pediatrics is hiring a Front Desk Coordinator for our Austin location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790031360000,
+    "postedAt": "2026-09-21T22:56:00.000Z",
+    "companyDescription": "Barton Springs Pediatrics is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2500 Barton Springs Rd",
+      "addressLocality": "Austin",
+      "addressRegion": "Texas",
+      "postalCode": "78704",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-barton-springs-pediatrics.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 41,
+    "jobApplicantInsights": {
+      "applicantCount": 90,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 51
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 13
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002313813",
+      "applicantsInPastDay": 11,
+      "seniorityDetails": [
+        {
+          "count": 24,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 19,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-27",
+      "name": "Drew Demo",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Barton Springs Pediatrics",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 40,
+        "end": 89
+      },
+      "entityUrn": "urn:li:fsd_company:800027",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800027",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800027",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6811
+      },
+      "name": "Barton Springs Pediatrics",
+      "description": "Barton Springs Pediatrics is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-barton-springs-pediatrics",
+      "employeeCount": 41
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002313813",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$58,000/yr",
+      "location": "Austin, TX",
+      "locationUrn": "urn:li:fsd_geo:9000027"
+    },
+    "skills": [
+      "Communication",
+      "Sales",
+      "Project Coordination",
+      "Team Leadership",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "id": "4002321732",
+    "title": "Counter Sales Associate",
+    "companyName": "Llano Estacado Farm Supply",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-llano-estacado-farm-supply/life",
+    "location": {
+      "abbreviatedLocalizedName": "Lubbock, TX",
+      "entityUrn": "urn:li:fsd_geo:9000028",
+      "defaultLocalizedName": "Lubbock, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400364",
+    "insights": [
+      "5 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002321732",
+    "applyUrl": "https://careers.sample-llano-estacado-farm-supply.example/apply/28",
+    "insightsV2": [
+      "58 employees · Farming"
+    ],
+    "descriptionText": "Overview\n\nLlano Estacado Farm Supply is hiring a Counter Sales Associate for our Lubbock location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789914960000,
+    "postedAt": "2026-09-20T14:36:00.000Z",
+    "companyDescription": "Llano Estacado Farm Supply is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2401 Ave Q",
+      "addressLocality": "Lubbock",
+      "addressRegion": "Texas",
+      "postalCode": "79411",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-llano-estacado-farm-supply.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 58,
+    "jobApplicantInsights": {
+      "applicantCount": 50,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 42
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 27
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002321732",
+      "applicantsInPastDay": 0,
+      "seniorityDetails": [
+        {
+          "count": 24,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 12,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-28",
+      "name": "Drew Example",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Llano Estacado Farm Supply",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Farming"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 50,
+        "end": 99
+      },
+      "entityUrn": "urn:li:fsd_company:800028",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800028",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800028",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7163
+      },
+      "name": "Llano Estacado Farm Supply",
+      "description": "Llano Estacado Farm Supply is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-llano-estacado-farm-supply",
+      "employeeCount": 58
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002321732",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Lubbock, TX",
+      "locationUrn": "urn:li:fsd_geo:9000028"
+    },
+    "skills": [
+      "Data Entry",
+      "Safety Compliance",
+      "Inventory Management",
+      "Problem Solving",
+      "Project Coordination"
+    ]
+  },
+  {
+    "id": "4002329651",
+    "title": "Shop Manager",
+    "companyName": "Front Range Bike Works",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-front-range-bike-works/life",
+    "location": {
+      "abbreviatedLocalizedName": "Denver, CO",
+      "entityUrn": "urn:li:fsd_geo:9000029",
+      "defaultLocalizedName": "Denver, Colorado, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400377",
+    "insights": [
+      "2 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002329651",
+    "applyUrl": "https://careers.sample-front-range-bike-works.example/apply/29",
+    "insightsV2": [
+      "18 employees · Retail"
+    ],
+    "descriptionText": "Overview\n\nFront Range Bike Works is hiring a Shop Manager for our Denver location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789829220000,
+    "postedAt": "2026-09-19T14:47:00.000Z",
+    "companyDescription": "Front Range Bike Works is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "3200 Larimer St",
+      "addressLocality": "Denver",
+      "addressRegion": "Colorado",
+      "postalCode": "80205",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-front-range-bike-works.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 18,
+    "jobApplicantInsights": {
+      "applicantCount": 136,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 39
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 26
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002329651",
+      "applicantsInPastDay": 10,
+      "seniorityDetails": [
+        {
+          "count": 26,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-29",
+      "name": "Avery Testerson",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Front Range Bike Works",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Retail"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 10,
+        "end": 59
+      },
+      "entityUrn": "urn:li:fsd_company:800029",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800029",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800029",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 5205
+      },
+      "name": "Front Range Bike Works",
+      "description": "Front Range Bike Works is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-front-range-bike-works",
+      "employeeCount": 18
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002329651",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$52,000/yr",
+      "location": "Denver, CO",
+      "locationUrn": "urn:li:fsd_geo:9000029"
+    },
+    "skills": [
+      "Microsoft Office",
+      "Team Leadership",
+      "Customer Service",
+      "Data Entry",
+      "Safety Compliance"
+    ]
+  },
+  {
+    "id": "4002337570",
+    "title": "Production Assistant",
+    "companyName": "Peachtree Print & Sign",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-peachtree-print--sign/life",
+    "location": {
+      "abbreviatedLocalizedName": "Atlanta, GA",
+      "entityUrn": "urn:li:fsd_geo:9000030",
+      "defaultLocalizedName": "Atlanta, Georgia, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400390",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002337570",
+    "applyUrl": "https://careers.sample-peachtree-print--sign.example/apply/30",
+    "insightsV2": [
+      "27 employees · Printing Services"
+    ],
+    "descriptionText": "Overview\n\nPeachtree Print & Sign is hiring a Production Assistant for our Atlanta location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789833960000,
+    "postedAt": "2026-09-19T16:06:00.000Z",
+    "companyDescription": "Peachtree Print & Sign is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2100 Piedmont Rd NE",
+      "addressLocality": "Atlanta",
+      "addressRegion": "Georgia",
+      "postalCode": "30324",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-peachtree-print--sign.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 27,
+    "jobApplicantInsights": {
+      "applicantCount": 24,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 58
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 30
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002337570",
+      "applicantsInPastDay": 9,
+      "seniorityDetails": [
+        {
+          "count": 17,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 25,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": null,
+    "company": {
+      "industry": [
+        "Printing Services"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 20,
+        "end": 69
+      },
+      "entityUrn": "urn:li:fsd_company:800030",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800030",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800030",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6411
+      },
+      "name": "Peachtree Print & Sign",
+      "description": "Peachtree Print & Sign is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-peachtree-print--sign",
+      "employeeCount": 27
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002337570",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Atlanta, GA",
+      "locationUrn": "urn:li:fsd_geo:9000030"
+    },
+    "skills": [
+      "Problem Solving",
+      "Communication",
+      "Microsoft Office",
+      "Team Leadership",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "4002345489",
+    "title": "Crew Lead",
+    "companyName": "Saguaro Landscaping Co",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-saguaro-landscaping-co/life",
+    "location": {
+      "abbreviatedLocalizedName": "Phoenix, AZ",
+      "entityUrn": "urn:li:fsd_geo:9000031",
+      "defaultLocalizedName": "Phoenix, Arizona, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400403",
+    "insights": [
+      "9 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002345489",
+    "applyUrl": "https://careers.sample-saguaro-landscaping-co.example/apply/31",
+    "insightsV2": [
+      "52 employees · Services for Renewable Energy"
+    ],
+    "descriptionText": "Overview\n\nSaguaro Landscaping Co is hiring a Crew Lead for our Phoenix location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789459860000,
+    "postedAt": "2026-09-15T08:11:00.000Z",
+    "companyDescription": "Saguaro Landscaping Co is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "3500 N 16th St",
+      "addressLocality": "Phoenix",
+      "addressRegion": "Arizona",
+      "postalCode": "85016",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-saguaro-landscaping-co.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 52,
+    "jobApplicantInsights": {
+      "applicantCount": 114,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 44
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 11
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002345489",
+      "applicantsInPastDay": 8,
+      "seniorityDetails": [
+        {
+          "count": 20,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 30,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-31",
+      "name": "Morgan Testerson",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Saguaro Landscaping Co",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Services for Renewable Energy"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 50,
+        "end": 99
+      },
+      "entityUrn": "urn:li:fsd_company:800031",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800031",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800031",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7598
+      },
+      "name": "Saguaro Landscaping Co",
+      "description": "Saguaro Landscaping Co is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-saguaro-landscaping-co",
+      "employeeCount": 52
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002345489",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$46,000/yr",
+      "location": "Phoenix, AZ",
+      "locationUrn": "urn:li:fsd_geo:9000031"
+    },
+    "skills": [
+      "Problem Solving",
+      "Time Management",
+      "Project Coordination",
+      "Data Entry",
+      "Inventory Management"
+    ]
+  },
+  {
+    "id": "4002353408",
+    "title": "Bookkeeper",
+    "companyName": "Lakeview Tax & Bookkeeping",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-lakeview-tax--bookkeeping/life",
+    "location": {
+      "abbreviatedLocalizedName": "Chicago, IL",
+      "entityUrn": "urn:li:fsd_geo:9000032",
+      "defaultLocalizedName": "Chicago, Illinois, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400416",
+    "insights": [
+      "8 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002353408",
+    "applyUrl": "https://careers.sample-lakeview-tax--bookkeeping.example/apply/32",
+    "insightsV2": [
+      "12 employees · Accounting"
+    ],
+    "descriptionText": "Overview\n\nLakeview Tax & Bookkeeping is hiring a Bookkeeper for our Chicago location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789420860000,
+    "postedAt": "2026-09-14T21:21:00.000Z",
+    "companyDescription": "Lakeview Tax & Bookkeeping is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1800 W Fullerton Ave",
+      "addressLocality": "Chicago",
+      "addressRegion": "Illinois",
+      "postalCode": "60614",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-lakeview-tax--bookkeeping.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 12,
+    "jobApplicantInsights": {
+      "applicantCount": 135,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 58
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 15
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002353408",
+      "applicantsInPastDay": 11,
+      "seniorityDetails": [
+        {
+          "count": 35,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 17,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "Hybrid",
+        "localizedDescription": "Employees work on-site and off-site.",
+        "entityUrn": "urn:li:fsd_workplaceType:3",
+        "workplaceTypeEnum": "HYBRID"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-32",
+      "name": "Jamie Example",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Lakeview Tax & Bookkeeping",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Accounting"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 10,
+        "end": 59
+      },
+      "entityUrn": "urn:li:fsd_company:800032",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800032",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800032",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 4170
+      },
+      "name": "Lakeview Tax & Bookkeeping",
+      "description": "Lakeview Tax & Bookkeeping is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-lakeview-tax--bookkeeping",
+      "employeeCount": 12
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002353408",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Chicago, IL",
+      "locationUrn": "urn:li:fsd_geo:9000032"
+    },
+    "skills": [
+      "Time Management",
+      "Sales",
+      "Project Coordination",
+      "Problem Solving",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "id": "4002361327",
+    "title": "Showroom Sales Associate",
+    "companyName": "Puget Sound Tile & Stone",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-puget-sound-tile--stone/life",
+    "location": {
+      "abbreviatedLocalizedName": "Seattle, WA",
+      "entityUrn": "urn:li:fsd_geo:9000033",
+      "defaultLocalizedName": "Seattle, Washington, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400429",
+    "insights": [],
+    "companyLogo": null,
+    "easyApply": false,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002361327",
+    "applyUrl": "https://careers.sample-puget-sound-tile--stone.example/apply/33",
+    "insightsV2": [
+      "31 employees · Retail"
+    ],
+    "descriptionText": "Overview\n\nPuget Sound Tile & Stone is hiring a Showroom Sales Associate for our Seattle location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1790114160000,
+    "postedAt": "2026-09-22T21:56:00.000Z",
+    "companyDescription": "Puget Sound Tile & Stone is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "4200 Aurora Ave N",
+      "addressLocality": "Seattle",
+      "addressRegion": "Washington",
+      "postalCode": "98103",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-puget-sound-tile--stone.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 31,
+    "jobApplicantInsights": {
+      "applicantCount": 79,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 40
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 20
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002361327",
+      "applicantsInPastDay": 8,
+      "seniorityDetails": [
+        {
+          "count": 10,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 7,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-33",
+      "name": "Morgan Demo",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Puget Sound Tile & Stone",
+      "isPremium": true,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Retail"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 30,
+        "end": 79
+      },
+      "entityUrn": "urn:li:fsd_company:800033",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800033",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800033",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 3908
+      },
+      "name": "Puget Sound Tile & Stone",
+      "description": "Puget Sound Tile & Stone is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-puget-sound-tile--stone",
+      "employeeCount": 31
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": "JOB_POSTER_PROVIDED",
+      "entityUrn": "urn:li:fsd_salaryInsights:4002361327",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "$62,000/yr",
+      "location": "Seattle, WA",
+      "locationUrn": "urn:li:fsd_geo:9000033"
+    },
+    "skills": [
+      "Safety Compliance",
+      "Team Leadership",
+      "Microsoft Office",
+      "Scheduling",
+      "Communication"
+    ]
+  },
+  {
+    "id": "4002369246",
+    "title": "Service Writer",
+    "companyName": "Bayshore Marine Repair",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-bayshore-marine-repair/life",
+    "location": {
+      "abbreviatedLocalizedName": "Tampa, FL",
+      "entityUrn": "urn:li:fsd_geo:9000034",
+      "defaultLocalizedName": "Tampa, Florida, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400442",
+    "insights": [
+      "4 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002369246",
+    "applyUrl": "https://careers.sample-bayshore-marine-repair.example/apply/34",
+    "insightsV2": [
+      "23 employees · Boat Manufacturing"
+    ],
+    "descriptionText": "Overview\n\nBayshore Marine Repair is hiring a Service Writer for our Tampa location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789953960000,
+    "postedAt": "2026-09-21T01:26:00.000Z",
+    "companyDescription": "Bayshore Marine Repair is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "2800 W Kennedy Blvd",
+      "addressLocality": "Tampa",
+      "addressRegion": "Florida",
+      "postalCode": "33609",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-bayshore-marine-repair.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 23,
+    "jobApplicantInsights": {
+      "applicantCount": 125,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 56
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 23
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002369246",
+      "applicantsInPastDay": 6,
+      "seniorityDetails": [
+        {
+          "count": 6,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 30,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-34",
+      "name": "Jamie Sample",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Bayshore Marine Repair",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Boat Manufacturing"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 20,
+        "end": 69
+      },
+      "entityUrn": "urn:li:fsd_company:800034",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800034",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800034",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7934
+      },
+      "name": "Bayshore Marine Repair",
+      "description": "Bayshore Marine Repair is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-bayshore-marine-repair",
+      "employeeCount": 23
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002369246",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Tampa, FL",
+      "locationUrn": "urn:li:fsd_geo:9000034"
+    },
+    "skills": [
+      "Customer Service",
+      "Inventory Management",
+      "Sales",
+      "Communication",
+      "Project Coordination"
+    ]
+  },
+  {
+    "id": "4002115838",
+    "title": "Office Manager",
+    "companyName": "Bluebonnet Dental Group",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-bluebonnet-dental-group/life",
+    "location": {
+      "abbreviatedLocalizedName": "Plano, TX",
+      "entityUrn": "urn:li:fsd_geo:9000002",
+      "defaultLocalizedName": "Plano, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": false,
+    "posterId": "29400026",
+    "insights": [
+      "8 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002115838",
+    "applyUrl": "https://careers.sample-bluebonnet-dental-group.example/apply/2",
+    "insightsV2": [
+      "85 employees · Hospitals and Health Care"
+    ],
+    "descriptionText": "Overview\n\nBluebonnet Dental Group is hiring a Office Manager for our Plano location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789794900000,
+    "postedAt": "2026-09-19T05:15:00.000Z",
+    "companyDescription": "Bluebonnet Dental Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "6101 Preston Rd",
+      "addressLocality": "Plano",
+      "addressRegion": "Texas",
+      "postalCode": "75093",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-bluebonnet-dental-group.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 85,
+    "jobApplicantInsights": {
+      "applicantCount": 145,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 48
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 18
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002115838",
+      "applicantsInPastDay": 12,
+      "seniorityDetails": [
+        {
+          "count": 5,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 27,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-02",
+      "name": "Jamie Testerson",
+      "connectionType": "2nd",
+      "headline": "Hiring Manager at Bluebonnet Dental Group",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Hospitals and Health Care"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 80,
+        "end": 129
+      },
+      "entityUrn": "urn:li:fsd_company:800002",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800002",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800002",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 7044
+      },
+      "name": "Bluebonnet Dental Group",
+      "description": "Bluebonnet Dental Group is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-bluebonnet-dental-group",
+      "employeeCount": 85
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002115838",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Plano, TX",
+      "locationUrn": "urn:li:fsd_geo:9000002"
+    },
+    "skills": [
+      "Inventory Management",
+      "Sales",
+      "Team Leadership",
+      "Microsoft Office",
+      "Safety Compliance"
+    ]
+  },
+  {
+    "id": "4002131677",
+    "title": "Maintenance Technician",
+    "companyName": "Cedar Ridge Property Management",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/sample-cedar-ridge-property-management/life",
+    "location": {
+      "abbreviatedLocalizedName": "Richardson, TX",
+      "entityUrn": "urn:li:fsd_geo:9000004",
+      "defaultLocalizedName": "Richardson, Texas, United States",
+      "countryISOCode": "US"
+    },
+    "isReposted": true,
+    "posterId": "29400052",
+    "insights": [
+      "5 connections work here"
+    ],
+    "companyLogo": null,
+    "easyApply": true,
+    "isPromoted": false,
+    "link": "https://www.linkedin.com/jobs/view/4002131677",
+    "applyUrl": "https://careers.sample-cedar-ridge-property-management.example/apply/30",
+    "insightsV2": [
+      "60 employees · Real Estate"
+    ],
+    "descriptionText": "Overview\n\nCedar Ridge Property Management is hiring a Maintenance Technician for our Richardson location. Sample posting for testing only.\n\nResponsibilities\n\nSupport daily operations, work with customers and teammates, and keep accurate records.\n\nQualifications\n\nPrior experience preferred. Reliable transportation required.",
+    "postedAtTimestamp": 1789708500000,
+    "postedAt": "2026-09-18T05:15:00.000Z",
+    "companyDescription": "Cedar Ridge Property Management is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+    "companyAddress": {
+      "type": "PostalAddress",
+      "streetAddress": "1200 E Campbell Rd",
+      "addressLocality": "Richardson",
+      "addressRegion": "Texas",
+      "postalCode": "75081",
+      "addressCountry": "US"
+    },
+    "companyWebsite": "https://www.sample-cedar-ridge-property-management.example/",
+    "companySlogan": null,
+    "companyEmployeesCount": 60,
+    "jobApplicantInsights": {
+      "applicantCount": 23,
+      "degreeDetails": [
+        {
+          "degree": {
+            "name": "Bachelor's Degree",
+            "entityUrn": "urn:li:fsd_degree:400"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 32
+        },
+        {
+          "degree": {
+            "name": "High School Diploma",
+            "entityUrn": "urn:li:fsd_degree:200"
+          },
+          "viewersHighestDegree": false,
+          "percentage": 17
+        }
+      ],
+      "skillDetails": [],
+      "entityUrn": "urn:li:fsd_jobApplicantInsights:4002131677",
+      "applicantsInPastDay": 1,
+      "seniorityDetails": [
+        {
+          "count": 29,
+          "seniority": {
+            "name": "Entry",
+            "entityUrn": "urn:li:fsd_seniority:3"
+          }
+        },
+        {
+          "count": 11,
+          "seniority": {
+            "name": "Senior",
+            "entityUrn": "urn:li:fsd_seniority:4"
+          }
+        }
+      ],
+      "applicantRankPercentile": null,
+      "locationDetails": [],
+      "applicantThresholdMet": true
+    },
+    "jobWorkplaceTypes": [
+      {
+        "localizedName": "On-site",
+        "localizedDescription": "Employees come to work in-person.",
+        "entityUrn": "urn:li:fsd_workplaceType:1",
+        "workplaceTypeEnum": "ON_SITE"
+      }
+    ],
+    "jobState": "LISTED",
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "recruiter": {
+      "profileUrl": "https://www.linkedin.com/in/sample-recruiter-04",
+      "name": "Alex Testerson",
+      "connectionType": "3rd",
+      "headline": "Hiring Manager at Cedar Ridge Property Management",
+      "isPremium": false,
+      "profilePictureUrl": null
+    },
+    "company": {
+      "industry": [
+        "Real Estate"
+      ],
+      "logo": null,
+      "employeeCountRange": {
+        "start": 60,
+        "end": 109
+      },
+      "entityUrn": "urn:li:fsd_company:800004",
+      "followingState": {
+        "followeeCount": null,
+        "entityUrn": "urn:li:fsd_followingState:urn:li:fsd_company:800004",
+        "following": false,
+        "preDashFollowingInfoUrn": "urn:li:fs_followingInfo:urn:li:company:800004",
+        "trackingUrn": null,
+        "followingType": "DEFAULT",
+        "followerCount": 6097
+      },
+      "name": "Cedar Ridge Property Management",
+      "description": "Cedar Ridge Property Management is a fictional sample company created for testing. It appears here only as placeholder lead data.",
+      "universalName": "sample-cedar-ridge-property-management",
+      "employeeCount": 60
+    },
+    "salary": {
+      "additionalCompensationTypes": null,
+      "compensationSource": null,
+      "entityUrn": "urn:li:fsd_salaryInsights:4002131677",
+      "formattedAdditionalCompensation": null,
+      "formattedBaseSalary": "",
+      "location": "Richardson, TX",
+      "locationUrn": "urn:li:fsd_geo:9000004"
+    },
+    "skills": [
+      "Team Leadership",
+      "Inventory Management",
+      "Time Management",
+      "Microsoft Office",
+      "Sales"
+    ]
+  }
+]

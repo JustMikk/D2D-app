@@ -1,0 +1,63 @@
+{
+  "name": "canvass",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "db:generate": "prisma generate",
+    "backup": "node scripts/backup.mjs",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts",
+    "postinstall": "prisma generate",
+    "worker": "tsx worker/index.ts",
+    "db:deploy": "prisma migrate deploy"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.2.2",
+    "@prisma/adapter-better-sqlite3": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "@tanstack/react-query": "^5.104.1",
+    "better-sqlite3": "^13.0.3",
+    "google-auth-library": "^11.2.0",
+    "idb": "^8.0.4",
+    "lucide-react": "^1.53.0",
+    "luxon": "^3.7.2",
+    "maplibre-gl": "^6.13.0",
+    "next": "^16.4.0",
+    "next-auth": "^5.0.0-beta.32",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "web-push": "^3.6.7",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/luxon": "^3.7.6",
+    "@types/node": "^24.19.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/web-push": "^3.6.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0",
+    "fake-indexeddb": "^6.2.5",
+    "prisma": "^7.10.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  }
+}

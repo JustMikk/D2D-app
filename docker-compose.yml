@@ -1,0 +1,45 @@
+# Two services, one SQLite database on a shared volume (backend spec §2, PRD D-4).
+# Secrets come from .env (see .env.example). DATABASE_URL and UPLOAD_DIR are fixed to the volume here.
+#   docker compose up -d --build
+services:
+  web:
+    build: .
+    image: canvass:latest
+    env_file: .env
+    environment:
+      DATABASE_URL: file:/data/canvass.db
+      UPLOAD_DIR: /data/uploads
+    # web applies migrations and seeds the first admin on boot, then serves HTTP.
+    command: sh -c "npx prisma migrate deploy && npx tsx prisma/seed.ts && npx next start -p 3000"
+    ports:
+      - "${CANVASS_PORT:-3000}:3000"
+    volumes:
+      - canvass-data:/data
+    restart: unless-stopped
+    healthcheck:
+      # Healthy once the database answers. /health's top-level "ok" also requires the worker, which
+      # starts after web, so checking it here would deadlock the startup order.
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/v1/health').then(r=>r.json()).then(j=>process.exit(j.db?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  worker:
+    image: canvass:latest
+    env_file: .env
+    environment:
+      DATABASE_URL: file:/data/canvass.db
+      UPLOAD_DIR: /data/uploads
+    command: npx tsx worker/index.ts
+    volumes:
+      - canvass-data:/data
+    depends_on:
+      web:
+        condition: service_healthy
+    restart: unless-stopped
+    # Lets the worker finish the job it is running on shutdown.
+    stop_grace_period: 30s
+
+volumes:
+  canvass-data:

@@ -1,0 +1,30 @@
+node_modules/
+.next/
+.next-e2e/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+
+# Generated Prisma client
+lib/generated/
+
+# Local data
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Handoff archive (the repo itself is the source of truth now)
+canvass-handoff.zip
+
+.claude/settings.local.json
+backups/

@@ -1,0 +1,354 @@
+/*
+ * Canvass design tokens — source of truth.
+ * Tailwind CSS v4. Import once from app/globals.css:  @import "./tokens.css";
+ * Layers: 1) primitives (raw values, never used in components)
+ *         2) semantic tokens (what components use; themed light / dusk)
+ *         3) Tailwind @theme mapping (utility classes)
+ * Contrast ratios for every text pair are listed in docs/DESIGN_TOKENS.md.
+ */
+
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+ * 1. Primitives
+ * ------------------------------------------------------------- */
+:root {
+  /* Asphalt: inks and dark surfaces (cool blue-graphite, never pure black) */
+  --asphalt-950: #11181d;
+  --asphalt-900: #172026;
+  --asphalt-850: #1a242a;
+  --asphalt-800: #23303a;
+  --asphalt-700: #36434b;
+  --asphalt-500: #56636b;
+  --asphalt-400: #6e7c85;
+  --asphalt-300: #8e9aa1;
+
+  /* Concrete: light surfaces (cool, slightly green-grey sidewalk) */
+  --concrete-300: #c3ccd0;
+  --concrete-200: #dce2e5;
+  --concrete-100: #eef1f2;
+  --paper: #ffffff;
+
+  /* Fog: dusk-theme text */
+  --fog-100: #e8edef;
+  --fog-300: #a5b2b9;
+
+  /* Interstate blue: the single action color (US guide-sign blue) */
+  --signal-400: #5b9bf0;
+  --signal-600: #1565c0;
+  --signal-800: #0d47a1;
+  --signal-100: #dbe9fb;
+
+  /* Mailbox blue: route lines, links, focus, "scheduled" */
+  --blue-300: #8db4ea;
+  --blue-600: #1f4e8c;
+  --blue-100: #dce6f4;
+
+  /* Curb yellow: attention ("needs review", "follow-up") */
+  --amber-400: #f5b800;
+  --amber-800: #7a5600;
+  --amber-100: #fcefc7;
+
+  /* Status hues */
+  --green-700: #1c6b3f;
+  --green-100: #dcefe2;
+  --red-700: #b0271f;
+  --red-100: #f8dedb;
+  --violet-700: #5b3a99;
+  --violet-100: #e9e1f5;
+  --teal-700: #0e6668;
+  --teal-100: #d6eeee;
+  --slate-600: #4f5d66;
+  --slate-100: #e4e9ec;
+
+  /* Dusk-theme tone pairs (fg on bg, all >= 6.7:1) */
+  --dusk-green-fg: #86d3a4;  --dusk-green-bg: #1e3b2b;
+  --dusk-amber-fg: #f5c842;  --dusk-amber-bg: #3b3214;
+  --dusk-red-fg: #f29b93;    --dusk-red-bg: #43201d;
+  --dusk-blue-fg: #9cc0f0;   --dusk-blue-bg: #1d2d45;
+  --dusk-violet-fg: #c4aeec; --dusk-violet-bg: #2e2546;
+  --dusk-teal-fg: #7fd1d1;   --dusk-teal-bg: #163738;
+  --dusk-slate-fg: #b9c5cc;  --dusk-slate-bg: #26323a;
+}
+
+/* ---------------------------------------------------------------
+ * 2. Semantic tokens — light ("day") theme is the default
+ * ------------------------------------------------------------- */
+:root,
+[data-theme="day"] {
+  color-scheme: light;
+
+  /* Surfaces */
+  --bg: var(--concrete-100);              /* app background */
+  --surface: var(--paper);                /* cards, sheets, inputs */
+  --surface-sunken: var(--concrete-200);  /* wells, skeletons, disabled fills */
+  --surface-inverse: var(--asphalt-900);  /* bottom action bar, toasts */
+
+  /* Text */
+  --ink: var(--asphalt-900);              /* primary text      16.5:1 on paper */
+  --ink-2: var(--asphalt-700);            /* secondary text     9.0:1 on bg    */
+  --ink-3: var(--asphalt-500);            /* muted, placeholder 5.5:1 on bg    */
+  --ink-inverse: var(--paper);
+
+  /* Lines */
+  --line: var(--concrete-300);            /* decorative dividers only (1.6:1) */
+  --line-strong: var(--asphalt-500);      /* input borders, controls (>= 3:1)  */
+  --outline: var(--asphalt-900);          /* ink outline: rep cards, pins, primary buttons */
+
+  /* Action & accents */
+  --action: var(--signal-600);            /* primary button fill */
+  --on-action: var(--paper);              /* text on action: white, 5.75:1. Never ink (2.88:1). */
+  --hot: var(--signal-600);               /* hot-door flag fill (with on-action text) */
+  --hot-text: var(--signal-800);          /* "Hot" as text on light surfaces 8.6:1 */
+  --link: var(--blue-600);
+  --focus: var(--blue-600);
+  --route: var(--blue-600);
+
+  /* Feedback */
+  --danger: var(--red-700);
+  --success: var(--green-700);
+
+  /* Tones (fg = text/icon, bg = chip fill, solid = map-pin fill; pins always get an --outline stroke) */
+  --tone-slate-fg: var(--slate-600);   --tone-slate-bg: var(--slate-100);   --tone-slate-solid: #7a8890;
+  --tone-amber-fg: var(--amber-800);   --tone-amber-bg: var(--amber-100);   --tone-amber-solid: var(--amber-400);
+  --tone-red-fg: var(--red-700);       --tone-red-bg: var(--red-100);       --tone-red-solid: var(--red-700);
+  --tone-blue-fg: var(--blue-600);     --tone-blue-bg: var(--blue-100);     --tone-blue-solid: var(--blue-600);
+  --tone-violet-fg: var(--violet-700); --tone-violet-bg: var(--violet-100); --tone-violet-solid: var(--violet-700);
+  --tone-teal-fg: var(--teal-700);     --tone-teal-bg: var(--teal-100);     --tone-teal-solid: var(--teal-700);
+  --tone-green-fg: var(--green-700);   --tone-green-bg: var(--green-100);   --tone-green-solid: var(--green-700);
+  --tone-ink-fg: var(--asphalt-900);   --tone-ink-bg: var(--concrete-200);  --tone-ink-solid: var(--asphalt-700);
+
+  /* Elevation — overlays only (sheets, toasts, map controls). Tinted asphalt, never neutral grey. */
+  --shadow-1: 0 1px 2px rgb(23 32 38 / 0.16);
+  --shadow-2: 0 6px 16px rgb(23 32 38 / 0.18);
+  --shadow-3: 0 16px 40px rgb(23 32 38 / 0.24);
+  --scrim: rgb(23 32 38 / 0.45);           /* backdrop behind sheets and modals */
+
+  /* Map */
+  --map-land: var(--concrete-100);
+  --map-water: var(--blue-100);
+  --map-road: var(--paper);
+  --map-road-casing: var(--concrete-300);
+  --map-label: var(--asphalt-500);
+}
+
+/* Dusk theme — evening knocking. Applied by [data-theme="dusk"], or by OS dark mode unless the user forced day. */
+[data-theme="dusk"] {
+  color-scheme: dark;
+  --bg: var(--asphalt-950);
+  --surface: var(--asphalt-850);
+  --surface-sunken: var(--asphalt-800);
+  --surface-inverse: var(--fog-100);
+  --ink: var(--fog-100);                  /* 13.4:1 on surface */
+  --ink-2: var(--fog-300);                /* 7.3:1 on surface  */
+  --ink-3: var(--asphalt-300);
+  --ink-inverse: var(--asphalt-900);
+  --line: var(--asphalt-800);
+  --line-strong: var(--asphalt-400);      /* 3.7:1 on surface */
+  --outline: var(--fog-100);
+  --action: var(--signal-400);
+  --on-action: var(--asphalt-950);        /* 6.3:1 */
+  --hot: var(--signal-400);
+  --hot-text: var(--signal-400);
+  --link: var(--blue-300);
+  --focus: var(--blue-300);
+  --route: var(--blue-300);
+  --danger: var(--dusk-red-fg);
+  --success: var(--dusk-green-fg);
+  --tone-slate-fg: var(--dusk-slate-fg);   --tone-slate-bg: var(--dusk-slate-bg);   --tone-slate-solid: #8e9aa1;
+  --tone-amber-fg: var(--dusk-amber-fg);   --tone-amber-bg: var(--dusk-amber-bg);   --tone-amber-solid: var(--amber-400);
+  --tone-red-fg: var(--dusk-red-fg);       --tone-red-bg: var(--dusk-red-bg);       --tone-red-solid: #e0574d;
+  --tone-blue-fg: var(--dusk-blue-fg);     --tone-blue-bg: var(--dusk-blue-bg);     --tone-blue-solid: var(--blue-300);
+  --tone-violet-fg: var(--dusk-violet-fg); --tone-violet-bg: var(--dusk-violet-bg); --tone-violet-solid: #a98ae0;
+  --tone-teal-fg: var(--dusk-teal-fg);     --tone-teal-bg: var(--dusk-teal-bg);     --tone-teal-solid: #3fb3b3;
+  --tone-green-fg: var(--dusk-green-fg);   --tone-green-bg: var(--dusk-green-bg);   --tone-green-solid: #4fb87a;
+  --tone-ink-fg: var(--fog-100);           --tone-ink-bg: var(--asphalt-800);       --tone-ink-solid: var(--fog-300);
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-2: 0 6px 16px rgb(0 0 0 / 0.45);
+  --shadow-3: 0 16px 40px rgb(0 0 0 / 0.55);
+  --scrim: rgb(0 0 0 / 0.6);
+  --map-land: var(--asphalt-950);
+  --map-water: var(--dusk-blue-bg);
+  --map-road: var(--asphalt-800);
+  --map-road-casing: var(--asphalt-850);
+  --map-label: var(--fog-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="day"]) {
+    /* Mirror of [data-theme="dusk"]. Keep in sync, or generate both from one source. */
+    color-scheme: dark;
+    --bg: var(--asphalt-950);
+    --surface: var(--asphalt-850);
+    --surface-sunken: var(--asphalt-800);
+    --surface-inverse: var(--fog-100);
+    --ink: var(--fog-100);
+    --ink-2: var(--fog-300);
+    --ink-3: var(--asphalt-300);
+    --ink-inverse: var(--asphalt-900);
+    --line: var(--asphalt-800);
+    --line-strong: var(--asphalt-400);
+    --outline: var(--fog-100);
+    --action: var(--signal-400);
+    --on-action: var(--asphalt-950);
+    --hot: var(--signal-400);
+    --hot-text: var(--signal-400);
+    --link: var(--blue-300);
+    --focus: var(--blue-300);
+    --route: var(--blue-300);
+    --danger: var(--dusk-red-fg);
+    --success: var(--dusk-green-fg);
+    --tone-slate-fg: var(--dusk-slate-fg);   --tone-slate-bg: var(--dusk-slate-bg);   --tone-slate-solid: #8e9aa1;
+    --tone-amber-fg: var(--dusk-amber-fg);   --tone-amber-bg: var(--dusk-amber-bg);   --tone-amber-solid: var(--amber-400);
+    --tone-red-fg: var(--dusk-red-fg);       --tone-red-bg: var(--dusk-red-bg);       --tone-red-solid: #e0574d;
+    --tone-blue-fg: var(--dusk-blue-fg);     --tone-blue-bg: var(--dusk-blue-bg);     --tone-blue-solid: var(--blue-300);
+    --tone-violet-fg: var(--dusk-violet-fg); --tone-violet-bg: var(--dusk-violet-bg); --tone-violet-solid: #a98ae0;
+    --tone-teal-fg: var(--dusk-teal-fg);     --tone-teal-bg: var(--dusk-teal-bg);     --tone-teal-solid: #3fb3b3;
+    --tone-green-fg: var(--dusk-green-fg);   --tone-green-bg: var(--dusk-green-bg);   --tone-green-solid: #4fb87a;
+    --tone-ink-fg: var(--fog-100);           --tone-ink-bg: var(--asphalt-800);       --tone-ink-solid: var(--fog-300);
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-2: 0 6px 16px rgb(0 0 0 / 0.45);
+    --shadow-3: 0 16px 40px rgb(0 0 0 / 0.55);
+    --scrim: rgb(0 0 0 / 0.6);
+    --map-land: var(--asphalt-950);
+    --map-water: var(--dusk-blue-bg);
+    --map-road: var(--asphalt-800);
+    --map-road-casing: var(--asphalt-850);
+    --map-label: var(--fog-300);
+  }
+}
+
+/* ---------------------------------------------------------------
+ * 3. Non-color tokens (theme-independent)
+ * ------------------------------------------------------------- */
+:root {
+  /* Type — Overpass (Highway Gothic lineage, the US road-sign face). Loaded via next/font as --font-overpass. */
+  --font-sans: var(--font-overpass), "Overpass", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --tnum: "tnum" 1, "lnum" 1;             /* use on times, distances, counts, addresses' house numbers */
+
+  /* Sizing & touch */
+  --touch-min: 48px;                       /* any tappable element */
+  --touch-primary: 56px;                   /* primary actions in the rep app */
+  --bar-height: 72px;                      /* rep bottom action bar, excluding safe area */
+  --gutter-rep: 16px;
+  --gutter-mgr: 24px;
+  --content-max-rep: 480px;
+
+  /* Borders */
+  --border-hair: 1px;
+  --border-ink: 2px;
+  --focus-ring: 3px;
+  --focus-offset: 2px;
+
+  /* Door-hanger card (signature component) */
+  --hanger-tab-h: 64px;
+  --hanger-hole: 14px;                     /* hole radius */
+  --hanger-hole-y: 22px;                   /* hole centre from top of tab */
+
+  /* Motion */
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+  --dur-swing: 420ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-swing: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layers */
+  --z-map-controls: 10;
+  --z-bar: 20;
+  --z-sheet: 30;
+  --z-toast: 40;
+  --z-modal: 50;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-base: 0ms;
+    --dur-slow: 0ms;
+    --dur-swing: 0ms;
+  }
+}
+
+/* ---------------------------------------------------------------
+ * 4. Tailwind v4 theme mapping
+ *    `inline` so utilities resolve to the themed CSS variables at runtime.
+ * ------------------------------------------------------------- */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-inverse: var(--surface-inverse);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-inverse: var(--ink-inverse);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-outline: var(--outline);
+  --color-action: var(--action);
+  --color-on-action: var(--on-action);
+  --color-hot: var(--hot);
+  --color-hot-text: var(--hot-text);
+  --color-link: var(--link);
+  --color-focus: var(--focus);
+  --color-route: var(--route);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-scrim: var(--scrim);
+
+  --color-slate-fg: var(--tone-slate-fg);   --color-slate-bg: var(--tone-slate-bg);   --color-slate-solid: var(--tone-slate-solid);
+  --color-amber-fg: var(--tone-amber-fg);   --color-amber-bg: var(--tone-amber-bg);   --color-amber-solid: var(--tone-amber-solid);
+  --color-red-fg: var(--tone-red-fg);       --color-red-bg: var(--tone-red-bg);       --color-red-solid: var(--tone-red-solid);
+  --color-blue-fg: var(--tone-blue-fg);     --color-blue-bg: var(--tone-blue-bg);     --color-blue-solid: var(--tone-blue-solid);
+  --color-violet-fg: var(--tone-violet-fg); --color-violet-bg: var(--tone-violet-bg); --color-violet-solid: var(--tone-violet-solid);
+  --color-teal-fg: var(--tone-teal-fg);     --color-teal-bg: var(--tone-teal-bg);     --color-teal-solid: var(--tone-teal-solid);
+  --color-green-fg: var(--tone-green-fg);   --color-green-bg: var(--tone-green-bg);   --color-green-solid: var(--tone-green-solid);
+  --color-ink-tone-fg: var(--tone-ink-fg);  --color-ink-tone-bg: var(--tone-ink-bg);  --color-ink-tone-solid: var(--tone-ink-solid);
+
+  --font-sans: var(--font-sans);
+
+  /* Type scale: size / line-height / weight / tracking */
+  --text-display: 2.5rem;      --text-display--line-height: 2.5rem;    --text-display--font-weight: 800; --text-display--letter-spacing: -0.01em;
+  --text-title-l: 1.625rem;    --text-title-l--line-height: 1.875rem;  --text-title-l--font-weight: 800; --text-title-l--letter-spacing: -0.005em;
+  --text-title-m: 1.3125rem;   --text-title-m--line-height: 1.625rem;  --text-title-m--font-weight: 700;
+  --text-title-s: 1.125rem;    --text-title-s--line-height: 1.5rem;    --text-title-s--font-weight: 700;
+  --text-body-l: 1.0625rem;    --text-body-l--line-height: 1.625rem;   --text-body-l--font-weight: 400;
+  --text-body: 0.9375rem;      --text-body--line-height: 1.375rem;     --text-body--font-weight: 400;
+  --text-label: 0.875rem;      --text-label--line-height: 1.125rem;    --text-label--font-weight: 600;
+  --text-caption: 0.8125rem;   --text-caption--line-height: 1.125rem;  --text-caption--font-weight: 500;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  --shadow-1: var(--shadow-1);
+  --shadow-2: var(--shadow-2);
+  --shadow-3: var(--shadow-3);
+
+  --ease-out: var(--ease-out);
+  --ease-in-out: var(--ease-in-out);
+  --ease-swing: var(--ease-swing);
+}
+
+/* ---------------------------------------------------------------
+ * 5. Base
+ * ------------------------------------------------------------- */
+html {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus-visible {
+  outline: var(--focus-ring) solid var(--focus);
+  outline-offset: var(--focus-offset);
+}
+
+.tnum {
+  font-feature-settings: var(--tnum);
+}

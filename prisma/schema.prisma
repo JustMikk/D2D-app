@@ -1,0 +1,460 @@
+// Canvass — Prisma schema (v1, SQLite)
+//
+// Conventions (see docs/BACKEND_SPEC.md section 4):
+// - IDs are cuid strings. All DateTime values are UTC.
+// - "Enum" fields are String columns. Allowed values are listed in the comment on each field and
+//   enforced with zod in lib/domain/enums.ts. Switch to native Prisma enums when moving to Postgres.
+// - JSON payloads are stored as String (serialized JSON) for portability; parse with zod at the edges.
+// - Local calendar dates (a rep's "today") are String "YYYY-MM-DD" in that rep's time zone.
+// - Prisma 7: the datasource URL is in prisma.config.ts, and lib/db.ts connects through the
+//   better-sqlite3 driver adapter. The client is generated into lib/generated/prisma.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ---------------------------------------------------------------------------
+// People and access
+// ---------------------------------------------------------------------------
+
+model User {
+  id                    String    @id @default(cuid())
+  email                 String    @unique
+  name                  String
+  role                  String // ADMIN | MANAGER | REP | VIEWER
+  passwordHash          String?
+  active                Boolean   @default(true)
+  monitoringAckAt       DateTime? // rep acknowledged the location monitoring notice
+  tokenVersion          Int       @default(0) // bump to invalidate all sessions for this user
+  preferences           String    @default("{}") // JSON: { theme, mapsApp }
+  lastLoginAt           DateTime?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  rep               Rep?
+  pushSubscriptions PushSubscription[]
+  invitesCreated    Invite[]           @relation("InviteCreatedBy")
+  apiKeysCreated    ApiKey[]
+  auditLogs         AuditLog[]
+  idempotencyKeys   IdempotencyKey[]
+  mediaUploaded     Media[]
+  importBatches     ImportBatch[]
+}
+
+model Invite {
+  id          String    @id @default(cuid())
+  email       String
+  role        String // ADMIN | MANAGER | REP | VIEWER
+  tokenHash   String    @unique // sha256 of the token sent in the link
+  data        String? // JSON: { rep?: { name, timeZone, baseAddress, dailyCapacity } } applied on accept
+  expiresAt   DateTime
+  usedAt      DateTime?
+  createdById String
+  createdBy   User      @relation("InviteCreatedBy", fields: [createdById], references: [id])
+  createdAt   DateTime  @default(now())
+
+  @@index([email])
+}
+
+model ApiKey {
+  id          String    @id @default(cuid())
+  name        String
+  prefix      String // first 8 characters, shown in the UI
+  keyHash     String    @unique // sha256 of the full key
+  scopes      String    @default("intake:write") // comma-separated
+  lastUsedAt  DateTime?
+  revokedAt   DateTime?
+  createdById String
+  createdBy   User      @relation(fields: [createdById], references: [id])
+  createdAt   DateTime  @default(now())
+}
+
+model PushSubscription {
+  id            String    @id @default(cuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  endpoint      String    @unique
+  p256dh        String
+  auth          String
+  userAgent     String?
+  failureCount  Int       @default(0)
+  lastSuccessAt DateTime?
+  createdAt     DateTime  @default(now())
+
+  @@index([userId])
+}
+
+// ---------------------------------------------------------------------------
+// Reps
+// ---------------------------------------------------------------------------
+
+model Rep {
+  id                 String    @id @default(cuid())
+  userId             String    @unique
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  phone              String?
+  timeZone           String // IANA, e.g. America/Chicago
+  baseAddress        String? // deployment base, human-readable
+  baseLat            Float?
+  baseLng            Float?
+  dailyCapacity      Int       @default(20)
+  workdays           String    @default("MON,TUE,WED,THU,FRI,SAT")
+  dayStartLocal      String    @default("09:00") // HH:mm in timeZone
+  active             Boolean   @default(true)
+  onShift            Boolean   @default(false)
+  lastLat            Float?
+  lastLng            Float?
+  lastAccuracyM      Float?
+  lastLocationAt     DateTime?
+  lastLocationSource String? // START_DAY | ARRIVED | VISIT | FOREGROUND | END_DAY | MANUAL
+  crmId              String?   @unique // Twenty fieldRep id
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  assignments    Assignment[]
+  visits         Visit[]
+  shifts         Shift[]
+  locationPings  LocationPing[]
+  routePlans     RoutePlan[]
+  unavailability RepUnavailability[]
+  preferredDoors Door[]              @relation("PreferredRep")
+}
+
+model RepUnavailability {
+  id        String   @id @default(cuid())
+  repId     String
+  rep       Rep      @relation(fields: [repId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD in the rep's time zone
+  reason    String?
+  createdAt DateTime @default(now())
+
+  @@unique([repId, date])
+}
+
+// ---------------------------------------------------------------------------
+// Companies and doors
+// ---------------------------------------------------------------------------
+
+model Company {
+  id        String   @id @default(cuid())
+  name      String
+  nameKey   String // normalized name without legal suffixes, for matching
+  website   String?
+  domain    String? // e.g. bluebonnetdental.com, lowercase, no www
+  street    String?
+  city      String?
+  state     String? // two-letter
+  zip       String? // five digits
+  crmId     String?  @unique // Twenty company id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  doors Door[]
+
+  @@index([nameKey])
+  @@index([domain])
+}
+
+model Door {
+  id                   String    @id @default(cuid())
+  externalProspectId   String    @unique
+  source               String    @default("API") // API | IMPORT | MANUAL
+  companyId            String
+  company              Company   @relation(fields: [companyId], references: [id])
+  name                 String // "Company – street" display name
+
+  status               String    @default("NEW") // NEW | NEEDS_REVIEW | GEOCODED | ASSIGNED | SCHEDULED | VISITED | CLOSED | UNASSIGNABLE
+  reviewReason         String? // PO_BOX | MISSING_ADDRESS | LOCATION_MISMATCH | REMOTE_JOB | LOW_GEOCODE_QUALITY | COVERAGE_GAP | BAD_ADDRESS | ROLLOVER_LIMIT
+  reviewDetail         String? // JSON evidence for the review UI (candidates, distances, similarity)
+  closedReason         String? // NOT_INTERESTED | SOLD | MAX_ATTEMPTS | NO_VISIT | DO_NOT_KNOCK | MANUAL
+  priority             String    @default("NORMAL") // NORMAL | HOT
+
+  // Visit address (chosen by address resolution)
+  street               String?
+  city                 String?
+  state                String?
+  zip                  String?
+  streetKey            String? // normalized street for same-address dedupe
+  lat                  Float?
+  lng                  Float?
+  geocodeQuality       String? // ROOFTOP | INTERPOLATED | CENTER | APPROXIMATE
+  addressSource        String? // COMPANY_ADDRESS | PLACES_MATCH | METRO_FALLBACK | MANUAL
+  placeId              String? // Google place id when PLACES_MATCH
+
+  // As received at intake
+  jobCity              String?
+  jobState             String?
+  workplaceType        String? // ON_SITE | HYBRID | REMOTE | UNKNOWN
+  contactName          String?
+  contactPhone         String? // E.164
+  contactEmail         String?
+  contactLinkedinUrl   String?
+  qualificationNotes   String    @default("")
+  preferredVisitWindow String? // MORNING | AFTERNOON | EVENING
+
+  // Progress
+  attempts             Int       @default(0)
+  rolloverCount        Int       @default(0)
+  lastOutcome          String? // see Visit.outcome
+  nextStepAt           DateTime?
+  preferredRepId       String?
+  preferredRep         Rep?      @relation("PreferredRep", fields: [preferredRepId], references: [id])
+
+  crmId                String?   @unique // Twenty doorAssignment id
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  closedAt             DateTime?
+
+  assignments Assignment[]
+  visits      Visit[]
+
+  @@index([status])
+  @@index([companyId, streetKey])
+  @@index([nextStepAt])
+}
+
+model DoNotKnock {
+  id        String   @id @default(cuid())
+  kind      String // COMPANY | ADDRESS
+  value     String // company nameKey or domain, or "streetKey|zip"
+  note      String?
+  createdAt DateTime @default(now())
+
+  @@unique([kind, value])
+}
+
+// ---------------------------------------------------------------------------
+// Assignments, routes, shifts, locations
+// ---------------------------------------------------------------------------
+
+model Assignment {
+  id             String     @id @default(cuid())
+  doorId         String
+  door           Door       @relation(fields: [doorId], references: [id], onDelete: Cascade)
+  repId          String
+  rep            Rep        @relation(fields: [repId], references: [id])
+  scheduledFor   String // YYYY-MM-DD in the rep's time zone
+  status         String     @default("ACTIVE") // ACTIVE | COMPLETED | ROLLED_OVER | CANCELLED | SKIPPED
+  assignedBy     String // ENGINE | MANAGER
+  assignedById   String? // user id when MANAGER
+  reason         String? // manager note, skip reason, cancel reason
+  driveMinutes   Int? // from the origin used at assignment time
+  routeOrder     Int?
+  plannedArrival DateTime?
+  routePlanId    String?
+  routePlan      RoutePlan? @relation(fields: [routePlanId], references: [id])
+  arrivedAt      DateTime?
+  arrivedLat     Float?
+  arrivedLng     Float?
+  arrivedDistM   Float?
+  completedAt    DateTime?
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+
+  visits Visit[]
+
+  @@index([repId, scheduledFor, status])
+  @@index([doorId, status])
+}
+
+model RoutePlan {
+  id                String   @id @default(cuid())
+  repId             String
+  rep               Rep      @relation(fields: [repId], references: [id], onDelete: Cascade)
+  date              String // YYYY-MM-DD in the rep's time zone
+  provider          String // LOCAL | GOOGLE
+  trigger           String // SCHEDULED | REP | MANAGER | HOT_DOOR | NEW_TODAY
+  status            String // OK | PARTIAL | FAILED
+  startLat          Float
+  startLng          Float
+  totalDriveMinutes Int?
+  totalDistanceM    Int?
+  skippedCount      Int      @default(0)
+  detail            String? // JSON: provider request/response summary
+  createdAt         DateTime @default(now())
+
+  assignments Assignment[]
+
+  @@index([repId, date])
+}
+
+model Shift {
+  id        String    @id @default(cuid())
+  repId     String
+  rep       Rep       @relation(fields: [repId], references: [id], onDelete: Cascade)
+  date      String // YYYY-MM-DD in the rep's time zone
+  startedAt DateTime
+  endedAt   DateTime?
+  startLat  Float?
+  startLng  Float?
+  endLat    Float?
+  endLng    Float?
+  endedBy   String? // REP | SYSTEM (auto-ended at rollover)
+
+  @@index([repId, date])
+}
+
+model LocationPing {
+  id         String   @id @default(cuid())
+  clientId   String   @unique // generated on the device, makes retries idempotent
+  repId      String
+  rep        Rep      @relation(fields: [repId], references: [id], onDelete: Cascade)
+  lat        Float
+  lng        Float
+  accuracyM  Float?
+  source     String // START_DAY | ARRIVED | VISIT | FOREGROUND | END_DAY
+  recordedAt DateTime // device time of the fix
+  receivedAt DateTime @default(now())
+
+  @@index([repId, recordedAt])
+}
+
+// ---------------------------------------------------------------------------
+// Visits and media
+// ---------------------------------------------------------------------------
+
+model Visit {
+  id                   String      @id @default(cuid())
+  clientId             String      @unique // generated on the device; retries return the same visit
+  doorId               String
+  door                 Door        @relation(fields: [doorId], references: [id], onDelete: Cascade)
+  repId                String
+  rep                  Rep         @relation(fields: [repId], references: [id])
+  assignmentId         String?
+  assignment           Assignment? @relation(fields: [assignmentId], references: [id])
+  outcome              String // NOT_HOME | NOT_INTERESTED | FOLLOW_UP | APPOINTMENT_SET | SOLD | BAD_ADDRESS
+  decisionMakerPresent Boolean?
+  notes                String      @default("")
+  nextStepAt           DateTime?
+  recordedAt           DateTime // device time the rep saved the visit
+  receivedAt           DateTime    @default(now())
+  lat                  Float?
+  lng                  Float?
+  accuracyM            Float?
+  distanceFromDoorM    Float?
+  offSite              Boolean     @default(false)
+  assignmentMismatch   Boolean     @default(false)
+  formDurationS        Int? // seconds from opening the form to saving
+  crmSyncedAt          DateTime?
+
+  media Media[]
+
+  @@index([doorId])
+  @@index([repId, recordedAt])
+}
+
+model Media {
+  id           String   @id @default(cuid())
+  clientId     String   @unique
+  visitId      String?
+  visit        Visit?   @relation(fields: [visitId], references: [id], onDelete: SetNull)
+  uploadedById String
+  uploadedBy   User     @relation(fields: [uploadedById], references: [id])
+  kind         String // PHOTO | SIGNATURE
+  path         String // relative to UPLOAD_DIR
+  mimeType     String
+  sizeBytes    Int
+  sha256       String
+  createdAt    DateTime @default(now())
+
+  @@index([visitId])
+}
+
+// ---------------------------------------------------------------------------
+// Platform: jobs, outbox, idempotency, settings, audit, imports
+// ---------------------------------------------------------------------------
+
+model Job {
+  id          String   @id @default(cuid())
+  type        String // see docs/BACKEND_SPEC.md section 8
+  payload     String   @default("{}") // JSON
+  status      String   @default("QUEUED") // QUEUED | RUNNING | DONE | FAILED
+  runAt       DateTime @default(now())
+  attempts    Int      @default(0)
+  maxAttempts Int      @default(5)
+  dedupeKey   String?  @unique // e.g. "resolve-door:<doorId>" while queued or running
+  key         String? // stable identity of scheduled work, kept after completion, e.g. "rollover:<repId>:<date>"
+  lockedAt    DateTime?
+  lockedBy    String?
+  lastError   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([status, runAt])
+  @@index([key])
+}
+
+model OutboxEvent {
+  id            String    @id @default(cuid())
+  type          String // see the event catalog in docs/BACKEND_SPEC.md section 9.3
+  payload       String // JSON, the full event envelope
+  status        String    @default("PENDING") // PENDING | SENT | FAILED
+  attempts      Int       @default(0)
+  nextAttemptAt DateTime  @default(now())
+  lastError     String?
+  sentAt        DateTime?
+  createdAt     DateTime  @default(now())
+
+  @@index([status, nextAttemptAt])
+}
+
+model IdempotencyKey {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  key          String
+  method       String
+  path         String
+  statusCode   Int
+  responseBody String
+  createdAt    DateTime @default(now())
+
+  @@unique([userId, key])
+}
+
+model AppSetting {
+  key         String   @id // e.g. "assignment.maxDriveMinutes"
+  value       String // JSON
+  updatedById String?
+  updatedAt   DateTime @updatedAt
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  actorType   String // USER | API_KEY | SYSTEM
+  actorUserId String?
+  actorUser   User?    @relation(fields: [actorUserId], references: [id])
+  actorKeyId  String?
+  action      String // e.g. door.reassigned, review.resolved, settings.updated
+  entityType  String // DOOR | REP | COMPANY | ASSIGNMENT | VISIT | SETTING | API_KEY | USER | IMPORT | INVITE
+  entityId    String
+  data        String? // JSON: before/after or details
+  createdAt   DateTime @default(now())
+
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+model ImportBatch {
+  id          String   @id @default(cuid())
+  filename    String
+  format      String // APIFY_JSON | CSV
+  status      String // PREVIEWED | COMMITTING | COMMITTED | FAILED
+  received    Int      @default(0)
+  created     Int      @default(0)
+  duplicates  Int      @default(0)
+  merged      Int      @default(0)
+  invalid     Int      @default(0)
+  doNotKnock  Int      @default(0) // rows rejected by the do-not-knock list
+  errors      String? // JSON array of { row, errors }
+  payload     String? // JSON array of the mapped intake rows, kept from preview to commit, then cleared
+  committedAt DateTime?
+  createdById String
+  createdBy   User     @relation(fields: [createdById], references: [id])
+  createdAt   DateTime @default(now())
+}

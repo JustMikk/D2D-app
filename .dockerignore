@@ -1,0 +1,15 @@
+node_modules
+.next
+.next-e2e
+data
+.env
+.env.*
+!.env.example
+test-results
+playwright-report
+coverage
+canvass-handoff.zip
+.git
+.claude
+lib/generated
+*.tsbuildinfo

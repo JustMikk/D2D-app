@@ -1,0 +1,54 @@
+/* tokens.css imports Tailwind and defines every design token (docs/DESIGN_TOKENS.md). */
+@import "./tokens.css";
+
+/* ---------------------------------------------------------------
+ * Door-hanger card (docs/DESIGN_TOKENS.md §8.1): a card with a tab and a round hole punched through it.
+ * ------------------------------------------------------------- */
+.hanger {
+  position: relative;
+  border: var(--border-ink) solid var(--outline);
+  border-radius: var(--radius-lg) var(--radius-lg) var(--radius-md) var(--radius-md);
+  background: var(--surface);
+}
+.hanger__tab {
+  position: relative;
+  height: var(--hanger-tab-h);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: var(--surface-sunken);
+  -webkit-mask: radial-gradient(circle var(--hanger-hole) at 50% var(--hanger-hole-y), transparent 98%, #000 100%);
+  mask: radial-gradient(circle var(--hanger-hole) at 50% var(--hanger-hole-y), transparent 98%, #000 100%);
+}
+.hanger--hot .hanger__tab {
+  background: var(--hot);
+  color: var(--on-action);
+}
+.hanger__ring {
+  position: absolute;
+  left: 50%;
+  top: var(--hanger-hole-y);
+  width: calc(var(--hanger-hole) * 2 + 4px);
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border: var(--border-ink) solid var(--outline);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* The one orchestrated moment: when a visit is saved the card swings on its hole, then leaves. */
+@keyframes hanger-swing {
+  0% { transform: rotate(0deg); }
+  35% { transform: rotate(-4deg); }
+  70% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+.hanger--swing {
+  transform-origin: 50% var(--hanger-hole-y);
+  animation: hanger-swing var(--dur-swing) var(--ease-swing);
+}
+@keyframes hanger-rise {
+  from { transform: translateY(12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.hanger--rise {
+  animation: hanger-rise var(--dur-base) var(--ease-out);
+}
